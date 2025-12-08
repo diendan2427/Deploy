@@ -1,0 +1,83 @@
+services:
+  # Redis - Judge0 cần Redis để queue
+  redis:
+    image: redis:7-alpine
+    container_name: judge0-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    networks:
+      - judge0-network
+    restart: unless-stopped
+
+  # Judge0 API
+  judge0:
+    image: judge0/judge0:1.13.0
+    container_name: judge0
+    ports:
+      - "2358:2358"
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - MAX_QUEUE_SIZE=200
+      - POSTGRES_HOST=postgres
+      - POSTGRES_PORT=5432
+      - POSTGRES_USER=judge0
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=judge0
+      # Enable worker và CE
+      - ENABLE_WORKER=true
+      - ENABLE_CE=true
+      # Disable cgroup trên Windows để tránh lỗi
+      - ENABLE_CGROUP=false
+      - CGROUP_DISABLED=1
+      # Additional settings to bypass cgroup completely
+      - USE_CGROUP=0
+      - CGROUP_V2=0
+      # Increase timeout for slower systems
+      - MAX_CPU_TIME_LIMIT=15
+      - MAX_WALL_TIME_LIMIT=30
+    depends_on:
+      - redis
+      - postgres
+    networks:
+      - judge0-network
+    restart: unless-stopped
+    # Privileged mode để có quyền tạo file và thư mục
+    privileged: true
+    # Thêm security options để bypass cgroup
+    security_opt:
+      - apparmor=unconfined
+      - seccomp=unconfined
+    # Tạo tmpfs cho /tmp
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=512m
+    # Mount cgroup từ host (nếu có) hoặc tạo tmpfs
+    # Trên Windows, cgroup có thể không có, nên dùng tmpfs
+    volumes:
+      - judge0-box:/box
+
+  # PostgreSQL - Judge0 cần database
+  postgres:
+    image: postgres:15-alpine
+    container_name: judge0-postgres
+    environment:
+      - POSTGRES_USER=judge0
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=judge0
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    networks:
+      - judge0-network
+    restart: unless-stopped
+
+volumes:
+  redis-data:
+  postgres-data:
+  judge0-box:
+
+networks:
+  judge0-network:
+    driver: bridge
+
