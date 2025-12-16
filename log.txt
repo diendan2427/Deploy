@@ -1,0 +1,115 @@
+[Region: europe-west4]
+==============
+Using Nixpacks
+==============
+
+context: 1l5t-ZOZy
+╔═════════════ Nixpacks v1.38.0 ════════════╗
+║ setup      │ nodejs-18_x                  ║
+║───────────────────────────────────────────║
+║ install    │ npm ci                       ║
+║───────────────────────────────────────────║
+║ build      │ npm install && npm run build ║
+║───────────────────────────────────────────║
+║ start      │ npm start                    ║
+╚═══════════════════════════════════════════╝
+
+internal
+load build definition from Dockerfile
+0ms
+
+internal
+load metadata for ghcr.io/railwayapp/nixpacks:ubuntu-1745885067
+433ms
+
+internal
+load .dockerignore
+0ms
+
+internal
+load build context
+0ms
+
+stage-0
+WORKDIR /app/ cached
+0ms
+
+stage-0
+COPY .nixpacks/nixpkgs-ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7.nix .nixpacks/nixpkgs-ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7.nix
+14ms
+
+stage-0
+RUN nix-env -if .nixpacks/nixpkgs-ffeebf0acf3ae8b29f8c7049cd911b9636efd7e7.nix && nix-collect-garbage -d
+33s
+29 store paths deleted, 247.84 MiB freed
+
+stage-0
+COPY . /app/.
+64ms
+
+stage-0
+RUN npm ci
+4s
+Run `npm audit` for details.
+
+stage-0
+COPY . /app/.
+88ms
+
+stage-0
+RUN npm install && npm run build
+7s
+npm warn config production Use `--omit=dev` instead.
+npm warn EBADENGINE Unsupported engine {
+npm warn EBADENGINE   package: 'cheerio@1.1.2',
+npm warn EBADENGINE   required: { node: '>=20.18.1' },
+npm warn EBADENGINE   current: { node: 'v18.20.5', npm: '10.8.2' }
+npm warn EBADENGINE }
+npm warn EBADENGINE Unsupported engine {
+npm warn EBADENGINE   package: 'undici@7.16.0',
+npm warn EBADENGINE   required: { node: '>=20.18.1' },
+npm warn EBADENGINE   current: { node: 'v18.20.5', npm: '10.8.2' }
+npm warn EBADENGINE }
+up to date, audited 467 packages in 1s
+84 packages are looking for funding
+  run `npm fund` for details
+1 moderate severity vulnerability
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+Run `npm audit` for details.
+npm warn config production Use `--omit=dev` instead.
+> server@1.0.0 build
+> tsc
+src/controllers/auth.controller.ts(3,15): error TS2305: Module '"jsonwebtoken"' has no exported member 'Secret'.
+
+src/controllers/auth.controller.ts(3,23): error TS2305: Module '"jsonwebtoken"' has no exported member 'SignOptions'.
+
+src/controllers/auth.controller.ts(37,45): error TS2554: Expected 2 arguments, but got 3.
+
+src/controllers/simplePvp.controller.ts(167,30): error TS2345: Argument of type '{ userId: any; username: any; isReady: false; }' is not assignable to parameter of type 'IPVPParticipant'.
+
+  Property 'joinedAt' is missing in type '{ userId: any; username: any; isReady: false; }' but required in type 'IPVPParticipant'.
+src/controllers/simplePvp.controller.ts(268,43): error TS18046: 'room._id' is of type 'unknown'.
+
+src/controllers/simplePvp.controller.ts(345,31): error TS2551: Property 'challenge' does not exist on type 'Document<unknown, {}, IPVPMatch, {}, {}> & IPVPMatch & Required<{ _id: unknown; }> & { __v: number; }'. Did you mean 'challengeId'?
+
+src/controllers/simplePvp.controller.ts(367,27): error TS18048: 'submission.testCases' is possibly 'undefined'.
+
+src/controllers/simplePvp.controller.ts(376,9): error TS18048: 'participant.submissions' is possibly 'undefined'.
+
+src/controllers/simplePvp.controller.ts(460,32): error TS2339: Property 'getTimeRemaining' does not exist on type 'Document<unknown, {}, IPVPMatch, {}, {}> & IPVPMatch & Required<{ _id: unknown; }> & { __v: number; }'.
+
+src/controllers/simplePvp.controller.ts(462,27): error TS2551: Property 'challenge' does not exist on type 'Document<unknown, {}, IPVPMatch, {}, {}> & IPVPMatch & Required<{ _id: unknown; }> & { __v: number; }'. Did you mean 'challengeId'?
+
+src/controllers/simplePvp.controller.ts(463,32): error TS2551: Property 'challenge' does not exist on type 'Document<unknown, {}, IPVPMatch, {}, {}> & IPVPMatch & Required<{ _id: unknown; }> & { __v: number; }'. Did you mean 'challengeId'?
+
+Dockerfile:24
+-------------------
+22 |     # build phase
+23 |     COPY . /app/.
+24 | >>> RUN --mount=type=cache,id=s/611f7a66-1b3e-4ea7-9f2e-977f3b5e85bb-node_modules/cache,target=/app/node_modules/.cache npm install && npm run build
+25 |
+26 |
+-------------------
+ERROR: failed to build: failed to solve: process "/bin/bash -ol pipefail -c npm install && npm run build" did not complete successfully: exit code: 2
+Error: Docker build failed

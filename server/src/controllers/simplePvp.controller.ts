@@ -164,7 +164,12 @@ export class SimplePvPController {
       }
 
       // Add participant
-      room.participants.push({ userId, username, isReady: false });
+      room.participants.push({ 
+        userId, 
+        username, 
+        isReady: false,
+        joinedAt: new Date()
+      });
       await room.save();
 
       res.json({
@@ -265,7 +270,7 @@ export class SimplePvPController {
 
       // Broadcast match start via WebSocket if available
       if ((req as any).wsService) {
-        (req as any).wsService.sendToRoom(room._id.toString(), 'match:started', {
+        (req as any).wsService.sendToRoom(String(room._id), 'match:started', {
           matchId: match._id,
           challenge: {
             title: challenge.title,
@@ -342,8 +347,8 @@ export class SimplePvPController {
         return;
       }
 
-      const challenge = match.challenge as any;
-      if (!challenge.testCases) {
+      const challengeData = match.challengeId as any;
+      if (!challengeData?.testCases) {
         res.status(500).json({
           success: false,
           message: 'Challenge test cases not found'
@@ -351,7 +356,7 @@ export class SimplePvPController {
         return;
       }
 
-      const testCases = challenge.testCases.filter((tc: any) => !tc.isHidden);
+      const testCases = challengeData.testCases.filter((tc: any) => !tc.isHidden);
 
       // Submit to Judge0
       const submission = await judge0Service.submitCode({
@@ -364,7 +369,7 @@ export class SimplePvPController {
       });
 
       // Calculate score
-      const passedTests = submission.testCases.filter((tc: any) => tc.passed).length;
+      const passedTests = submission.testCases?.filter((tc: any) => tc.passed).length || 0;
       const score = (passedTests / testCases.length) * 100;
 
       // Update match participant
@@ -373,6 +378,9 @@ export class SimplePvPController {
         participant.score = Math.max(participant.score, score);
         participant.completed = score === 100;
         participant.completionTime = participant.completed ? new Date() : participant.completionTime;
+        if (!participant.submissions) {
+          participant.submissions = [];
+        }
         participant.submissions.push({
           code,
           language,
@@ -457,10 +465,10 @@ export class SimplePvPController {
             completionTime: p.completionTime,
             isWinner: p.isWinner
           })),
-          timeRemaining: match.getTimeRemaining(),
+          timeRemaining: 0, // getTimeRemaining method not available
           challenge: {
-            title: (match.challenge as any).title,
-            difficulty: (match.challenge as any).difficulty,
+            title: (match.challengeId as any)?.title || 'Challenge',
+            difficulty: (match.challengeId as any)?.difficulty || 'medium',
             timeLimit: match.settings?.timeLimit
           }
         }

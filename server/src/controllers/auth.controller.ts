@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 import { validationResult } from 'express-validator';
-import jwt, { Secret, SignOptions } from 'jsonwebtoken';
+import jwt from 'jsonwebtoken';
 import passport from 'passport';
 import crypto from 'crypto';
 import escapeStringRegexp from 'escape-string-regexp';
@@ -28,13 +28,12 @@ interface JwtPayload {
     userId: string;
 }
 
-const JWT_SECRET: Secret = ENV.JWT_SECRET;
+const JWT_SECRET = ENV.JWT_SECRET;
 const JWT_EXPIRE = ENV.JWT_EXPIRE;
 const CLIENT_URL = ENV.CLIENT_URL;
 
 const generateToken = (userId: string): string => {
-    const options: SignOptions = { expiresIn: '7d' };
-    return jwt.sign({ userId }, JWT_SECRET, options);
+    return jwt.sign({ userId }, JWT_SECRET, { expiresIn: '7d' });
 };
 
 // Helper function để xác định role của user
