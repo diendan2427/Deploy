@@ -33,7 +33,8 @@ const JWT_EXPIRE = ENV.JWT_EXPIRE;
 const CLIENT_URL = ENV.CLIENT_URL;
 
 const generateToken = (userId: string): string => {
-    return jwt.sign({ userId }, JWT_SECRET, { expiresIn: '7d' });
+    // @ts-ignore - jwt.sign types mismatch
+    return jwt.sign({ userId }, String(JWT_SECRET), { expiresIn: '7d' });
 };
 
 // Helper function để xác định role của user
