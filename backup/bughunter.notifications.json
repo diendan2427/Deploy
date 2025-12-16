@@ -1,0 +1,172 @@
+[{
+  "_id": {
+    "$oid": "69323db8dd2075e03fa9356c"
+  },
+  "user_id": {
+    "$oid": "690576be9d98232c82cf9dd1"
+  },
+  "title": "🎉 Hoàn thành bài tập!",
+  "message": "Chúc mừng! Bạn đã hoàn thành \"Tổng hai số\" với điểm tối đa và nhận được +15 XP!",
+  "type": "success",
+  "read": true,
+  "link": "/challenge/692dad9e1808ca03bb4cca34",
+  "createdAt": {
+    "$date": "2025-12-05T02:04:40.204Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-05T02:19:32.044Z"
+  },
+  "__v": 0,
+  "readAt": {
+    "$date": "2025-12-05T02:19:32.041Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693258720fc3d6c298f74ea8"
+  },
+  "user_id": {
+    "$oid": "690576be9d98232c82cf9dd1"
+  },
+  "title": "✅ Hoàn thành bài tập!",
+  "message": "Bạn đã hoàn thành \"Tính Tổng Hai Số\" với 20/100 điểm (20%) và nhận được +2 XP!",
+  "type": "success",
+  "read": true,
+  "link": "/challenge/69323c7dbe548fa92ab27db9",
+  "createdAt": {
+    "$date": "2025-12-05T03:58:42.895Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-05T05:03:27.255Z"
+  },
+  "__v": 0,
+  "readAt": {
+    "$date": "2025-12-05T05:03:27.255Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69325a6c39aee81b09ea2c27"
+  },
+  "user_id": {
+    "$oid": "690576be9d98232c82cf9dd1"
+  },
+  "title": "✅ Hoàn thành bài tập!",
+  "message": "Bạn đã hoàn thành \"Tính Tổng Hai Số\" với 20/100 điểm (20%) và nhận được +2 XP!",
+  "type": "success",
+  "read": true,
+  "link": "/challenge/69323c7dbe548fa92ab27db9",
+  "createdAt": {
+    "$date": "2025-12-05T04:07:08.436Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-05T05:03:25.271Z"
+  },
+  "__v": 0,
+  "readAt": {
+    "$date": "2025-12-05T05:03:25.261Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693288b2a45da6570ae6762e"
+  },
+  "user_id": {
+    "$oid": "692d497c0c1a1b0f210277a8"
+  },
+  "title": "⭐ Lên hạng!",
+  "message": "Chúc mừng! Bạn đã lên hạng từ Newbie lên Junior!",
+  "type": "success",
+  "read": false,
+  "link": "/profile",
+  "createdAt": {
+    "$date": "2025-12-05T07:24:34.632Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-05T07:24:34.632Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693288b2a45da6570ae67630"
+  },
+  "user_id": {
+    "$oid": "692d497c0c1a1b0f210277a8"
+  },
+  "title": "✅ Hoàn thành bài tập!",
+  "message": "Bạn đã hoàn thành \"Tính Tổng Hai Số\" với 20/100 điểm (20%) và nhận được +2 XP!",
+  "type": "success",
+  "read": false,
+  "link": "/challenge/69323c7dbe548fa92ab27db9",
+  "createdAt": {
+    "$date": "2025-12-05T07:24:34.642Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-05T07:24:34.642Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69328f5b580aa83c1ba7e0d7"
+  },
+  "user_id": {
+    "$oid": "692d497c0c1a1b0f210277a8"
+  },
+  "title": "🏆 Chiến thắng PvP!",
+  "message": "Chúc mừng! Bạn đã đánh bại ThanhToxic trong trận đấu Easy và nhận được +20 XP!",
+  "type": "success",
+  "read": false,
+  "link": "/pvp",
+  "createdAt": {
+    "$date": "2025-12-05T07:52:59.339Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-05T07:52:59.339Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69328f5b580aa83c1ba7e0db"
+  },
+  "user_id": {
+    "$oid": "690576be9d98232c82cf9dd1"
+  },
+  "title": "💪 Trận đấu kết thúc",
+  "message": "Bạn đã thua thanh1 trong trận đấu PvP. Hãy tiếp tục luyện tập để cải thiện!",
+  "type": "info",
+  "read": true,
+  "link": "/pvp",
+  "createdAt": {
+    "$date": "2025-12-05T07:52:59.343Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-05T08:01:55.906Z"
+  },
+  "__v": 0,
+  "readAt": {
+    "$date": "2025-12-05T08:01:55.903Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69350a845bd109c3724cbcae"
+  },
+  "user_id": {
+    "$oid": "690576be9d98232c82cf9dd1"
+  },
+  "title": "🎉 Hoàn thành bài tập!",
+  "message": "Chúc mừng! Bạn đã hoàn thành \"Tính Tổng Hai Số\" với điểm tối đa và nhận được +15 XP!",
+  "type": "success",
+  "read": false,
+  "link": "/challenge/69323c7dbe548fa92ab27db9",
+  "createdAt": {
+    "$date": "2025-12-07T05:03:00.466Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-07T05:03:00.466Z"
+  },
+  "__v": 0
+}]

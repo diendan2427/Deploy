@@ -1,0 +1,194 @@
+[{
+  "_id": {
+    "$oid": "6931b70665e67dd894235669"
+  },
+  "userId": {
+    "$oid": "690576be9d98232c82cf9dd1"
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "Xin chào",
+      "timestamp": {
+        "$date": "2025-12-04T16:29:58.957Z"
+      },
+      "_id": {
+        "$oid": "6931b70665e67dd89423566a"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Chào ThanhToxic! Rất vui được gặp bạn trên BugHunter! 👋\n\nBạn có vẻ là một \"Junior\" với 120 XP rồi đấy, đã có khởi đầu rất tốt rồi!\n\nBạn đang muốn tìm hiểu gì, hay có cần mình giúp gì về lập trình không? Đừng ngần ngại hỏi nhé, mình ở đây để hỗ trợ bạn sửa lỗi và cải thiện kỹ năng lập trình đó! 😊",
+      "timestamp": {
+        "$date": "2025-12-04T16:30:01.499Z"
+      },
+      "_id": {
+        "$oid": "6931b70965e67dd894235672"
+      }
+    },
+    {
+      "role": "user",
+      "content": "trong web hiện có tổng cộng bao nhiêu bài tập",
+      "timestamp": {
+        "$date": "2025-12-04T16:30:19.649Z"
+      },
+      "_id": {
+        "$oid": "6931b71b65e67dd89423567f"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Chào ThanhToxic! Hiện tại trên BugHunter, chúng mình đang có **1 bài tập** sẵn sàng để bạn thử sức đấy!\n\nĐó là bài:\n*   **[#1] Tổng hai số** (Python, Easy) - Một bài tập cơ bản rất hay để bạn khởi động và làm quen với việc sửa lỗi logic.\n\nMặc dù số lượng chưa nhiều, nhưng chúng mình đang cố gắng bổ sung thêm thật nhiều bài tập mới với đa dạng ngôn ngữ và độ khó để bạn có thể luyện tập và nâng cao kỹ năng mỗi ngày!\n\nBạn muốn thử sức với bài **\"Tổng hai số\"** không? Hay bạn có chủ đề nào muốn mình gợi ý thêm không? 😊",
+      "timestamp": {
+        "$date": "2025-12-04T16:30:22.207Z"
+      },
+      "_id": {
+        "$oid": "6931b71e65e67dd894235685"
+      }
+    },
+    {
+      "role": "user",
+      "content": "Hôm nay ngày mấy",
+      "timestamp": {
+        "$date": "2025-12-04T16:30:40.847Z"
+      },
+      "_id": {
+        "$oid": "6931b73065e67dd89423568f"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Chào ThanhToxic! Hôm nay là ngày **20 tháng 5 năm 2024** đó bạn.\n\nBạn có cần mình giúp gì về các bài tập lập trình trên BugHunter không? Hay bạn muốn tìm hiểu thêm về một khái niệm nào đó không? 😊",
+      "timestamp": {
+        "$date": "2025-12-04T16:30:42.792Z"
+      },
+      "_id": {
+        "$oid": "6931b73265e67dd894235694"
+      }
+    }
+  ],
+  "title": "Xin chào",
+  "createdAt": {
+    "$date": "2025-12-04T16:30:01.503Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T16:30:42.795Z"
+  },
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "69326d9316f223806b6b7003"
+  },
+  "userId": {
+    "$oid": "690576be9d98232c82cf9dd1"
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "Có bao nhiêu bài tập hiện có ở web",
+      "timestamp": {
+        "$date": "2025-12-05T05:28:51.056Z"
+      },
+      "_id": {
+        "$oid": "69326d9316f223806b6b7004"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Chào ThanhToxic! Rất vui được gặp bạn!\n\nHiện tại, BugHunter đang có **7 bài tập** thú vị để bạn thử sức và rèn luyện kỹ năng lập trình đó!\n\nCác bài tập này đa dạng từ mức độ dễ đến khó, bao gồm nhiều chủ đề khác nhau như xử lý chuỗi, danh sách, logic cơ bản,... Bạn có thể tìm thấy các challenge như:\n\n*   **Tính Tổng Hai Số** (Easy)\n*   **Kiểm Tra Số Chẵn Lẻ** (Easy)\n*   **Đếm Ký Tự Trong Chuỗi** (Easy)\n*   **Đảo Ngược Chuỗi** (Medium)\n*   **Tìm Số Lớn Nhất Trong Danh Sách** (Medium)\n*   Và cả những bài khó hơn như **Chuỗi Con Palindrome Dài Nhất** (Hard)\n\nHãy ghé thăm phần \"Challenges\" trên BugHunter để khám phá và bắt đầu giải các bài tập này nhé. Mỗi bài tập đều có những lỗi cần bạn tìm ra và sửa chữa để tăng cường kỹ năng debug của mình!\n\nChúc bạn có những giây phút học tập hiệu quả và vui vẻ trên BugHunter!",
+      "timestamp": {
+        "$date": "2025-12-05T05:28:54.837Z"
+      },
+      "_id": {
+        "$oid": "69326d9616f223806b6b700a"
+      }
+    },
+    {
+      "role": "user",
+      "content": "Mình đã học được tất cả bao nhiêu giờ rồi",
+      "timestamp": {
+        "$date": "2025-12-05T05:29:55.228Z"
+      },
+      "_id": {
+        "$oid": "69326dd316f223806b6b7018"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Chào ThanhToxic!\n\nRất tiếc là hệ thống của BugHunter hiện tại chưa có chức năng thống kê chính xác tổng số giờ bạn đã học trên nền tảng. 😅\n\nTuy nhiên, bạn có thể xem xét những chỉ số khác để đánh giá quá trình học tập và tiến bộ của mình nhé:\n\n*   **XP (Điểm kinh nghiệm): 139 XP** - Đây là điểm bạn kiếm được khi hoàn thành các bài tập và sửa lỗi. XP càng cao chứng tỏ bạn đã giải quyết được nhiều thử thách rồi đó!\n*   **Rank: Junior** - Cấp bậc này cũng thể hiện mức độ kinh nghiệm của bạn trên BugHunter.\n*   **Số lượng bài tập đã hoàn thành:** Mặc dù không có con số cụ thể ở đây, nhưng mỗi khi bạn hoàn thành một challenge, đó là một bước tiến quan trọng!\n\nChúng mình sẽ ghi nhận ý kiến của bạn về việc bổ sung tính năng thống kê thời gian học tập trong tương lai nhé! Cảm ơn bạn đã quan tâm và học tập tích cực trên BugHunter!",
+      "timestamp": {
+        "$date": "2025-12-05T05:29:59.256Z"
+      },
+      "_id": {
+        "$oid": "69326dd716f223806b6b701d"
+      }
+    }
+  ],
+  "title": "Có bao nhiêu bài tập hiện có ở web",
+  "createdAt": {
+    "$date": "2025-12-05T05:28:54.846Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-05T05:29:59.259Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "69328fdb580aa83c1ba7e77c"
+  },
+  "userId": {
+    "$oid": "68e9aef690945482f3158ac2"
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "Tôi đã được bao nhiêu xp",
+      "timestamp": {
+        "$date": "2025-12-05T07:55:07.020Z"
+      },
+      "_id": {
+        "$oid": "69328fdb580aa83c1ba7e77d"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Chào bạn admin!\n\nBạn hiện đang có **1035 XP** trên BugHunter đó! Một con số khá ấn tượng để đạt đến Rank **Expert** rồi đấy!\n\nBạn có muốn thử sức với challenge nào để tăng thêm XP không? Với kinh nghiệm của bạn, mình nghĩ những bài tập như:\n\n*   **[#1] Chuỗi Con Palindrome Dài Nhất** (Python, Hard, 300 điểm) - Đây là một challenge khá \"khoai\" nhưng sẽ giúp bạn nâng cao kỹ năng thuật toán và xử lý chuỗi đó!\n*   Hoặc nếu bạn muốn ôn lại kiến thức cơ bản về chuỗi, có thể thử **[#2] Đảo Ngược Chuỗi** (Python, Medium, 200 điểm).\n\nCứ thoải mái hỏi nếu bạn cần bất kỳ sự trợ giúp nào nhé! Mình luôn ở đây để hỗ trợ bạn trên con đường trở thành một \"thợ săn bug\" siêu đẳng! 💪",
+      "timestamp": {
+        "$date": "2025-12-05T07:55:12.305Z"
+      },
+      "_id": {
+        "$oid": "69328fe0580aa83c1ba7e782"
+      }
+    },
+    {
+      "role": "user",
+      "content": "có tổng cộng bao nhiêu bài",
+      "timestamp": {
+        "$date": "2025-12-05T07:55:41.843Z"
+      },
+      "_id": {
+        "$oid": "69328ffd580aa83c1ba7e78f"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Chào bạn admin!\n\nTrên hệ thống BugHunter hiện tại đang có tổng cộng **7 bài tập** (challenges) sẵn sàng để bạn thử sức đó!\n\nTuy số lượng chưa quá lớn, nhưng mỗi bài tập đều được thiết kế để giúp bạn rèn luyện các kỹ năng khác nhau, từ cú pháp cơ bản đến thuật toán phức tạp.\n\nBạn có muốn mình gợi ý một vài bài tập phù hợp với trình độ Expert của bạn không? Hoặc bạn đang muốn tập trung vào một chủ đề cụ thể nào? Cứ nói cho mình biết nhé! 😊",
+      "timestamp": {
+        "$date": "2025-12-05T07:55:44.285Z"
+      },
+      "_id": {
+        "$oid": "69329000580aa83c1ba7e794"
+      }
+    }
+  ],
+  "title": "Tôi đã được bao nhiêu xp",
+  "createdAt": {
+    "$date": "2025-12-05T07:55:12.306Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-05T07:55:44.288Z"
+  },
+  "__v": 1
+}]

@@ -1,0 +1,953 @@
+[{
+  "_id": {
+    "$oid": "692da4e390c69016b900cb48"
+  },
+  "roomId": {
+    "$oid": "692da4d590c69016b900cb0c"
+  },
+  "roomName": "test4",
+  "challengeId": {
+    "$oid": "690588d862606e72f966c317"
+  },
+  "challengeTitle": "LeetCode: Palindrome Number (Variant 4)",
+  "participants": [
+    {
+      "userId": {
+        "$oid": "692d497c0c1a1b0f210277a8"
+      },
+      "username": "thanh1",
+      "score": 0,
+      "passedTests": 0,
+      "totalTests": 2,
+      "completionTime": 0,
+      "isWinner": true,
+      "_id": {
+        "$oid": "692da4e390c69016b900cb49"
+      }
+    },
+    {
+      "userId": {
+        "$oid": "690576be9d98232c82cf9dd1"
+      },
+      "username": "ThanhToxic",
+      "score": 0,
+      "passedTests": 0,
+      "totalTests": 2,
+      "completionTime": 0,
+      "isWinner": false,
+      "_id": {
+        "$oid": "692da4e390c69016b900cb4a"
+      }
+    }
+  ],
+  "status": "completed",
+  "startedAt": {
+    "$date": "2025-12-01T14:23:31.308Z"
+  },
+  "settings": {
+    "timeLimit": 10,
+    "difficulty": "Easy",
+    "maxParticipants": 2
+  },
+  "timeLimit": 10,
+  "difficulty": "Easy",
+  "createdAt": {
+    "$date": "2025-12-01T14:23:31.319Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-01T14:38:26.466Z"
+  },
+  "__v": 0,
+  "completedAt": {
+    "$date": "2025-12-01T14:38:26.451Z"
+  },
+  "winnerId": {
+    "$oid": "692d497c0c1a1b0f210277a8"
+  }
+},
+{
+  "_id": {
+    "$oid": "692dafe4cec1e96d80e583ac"
+  },
+  "roomId": {
+    "$oid": "692dafdccec1e96d80e5836f"
+  },
+  "roomName": "test2",
+  "challengeId": {
+    "$oid": "692dad9e1808ca03bb4cca34"
+  },
+  "challengeTitle": "Tổng hai số",
+  "participants": [
+    {
+      "userId": {
+        "$oid": "692d497c0c1a1b0f210277a8"
+      },
+      "username": "thanh1",
+      "score": 0,
+      "passedTests": 0,
+      "totalTests": 6,
+      "completionTime": 7747,
+      "isWinner": false,
+      "_id": {
+        "$oid": "692dafe4cec1e96d80e583ad"
+      },
+      "submittedAt": {
+        "$date": "2025-12-01T15:10:36.657Z"
+      }
+    },
+    {
+      "userId": {
+        "$oid": "690576be9d98232c82cf9dd1"
+      },
+      "username": "ThanhToxic",
+      "score": 0,
+      "passedTests": 0,
+      "totalTests": 6,
+      "completionTime": 0,
+      "isWinner": false,
+      "_id": {
+        "$oid": "692dafe4cec1e96d80e583ae"
+      }
+    }
+  ],
+  "status": "in-progress",
+  "startedAt": {
+    "$date": "2025-12-01T15:10:28.909Z"
+  },
+  "settings": {
+    "timeLimit": 10,
+    "difficulty": "Easy",
+    "maxParticipants": 2
+  },
+  "timeLimit": 10,
+  "difficulty": "Easy",
+  "createdAt": {
+    "$date": "2025-12-01T15:10:28.916Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-01T15:10:36.660Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692db54fcec1e96d80e5871b"
+  },
+  "roomId": {
+    "$oid": "692db4b2cec1e96d80e586db"
+  },
+  "roomName": "test1",
+  "challengeId": {
+    "$oid": "692dad9e1808ca03bb4cca34"
+  },
+  "challengeTitle": "Tổng hai số",
+  "participants": [
+    {
+      "userId": {
+        "$oid": "692d497c0c1a1b0f210277a8"
+      },
+      "username": "thanh1",
+      "score": 0,
+      "passedTests": 0,
+      "totalTests": 6,
+      "completionTime": 0,
+      "isWinner": false,
+      "_id": {
+        "$oid": "692db54fcec1e96d80e5871c"
+      }
+    },
+    {
+      "userId": {
+        "$oid": "690576be9d98232c82cf9dd1"
+      },
+      "username": "ThanhToxic",
+      "score": 0,
+      "passedTests": 0,
+      "totalTests": 6,
+      "completionTime": 0,
+      "isWinner": false,
+      "_id": {
+        "$oid": "692db54fcec1e96d80e5871d"
+      }
+    }
+  ],
+  "status": "in-progress",
+  "startedAt": {
+    "$date": "2025-12-01T15:33:35.953Z"
+  },
+  "settings": {
+    "timeLimit": 10,
+    "difficulty": "Easy",
+    "maxParticipants": 2
+  },
+  "timeLimit": 10,
+  "difficulty": "Easy",
+  "createdAt": {
+    "$date": "2025-12-01T15:33:35.961Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-01T15:33:35.961Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692db5e6586cb3c517a1ad6e"
+  },
+  "roomId": {
+    "$oid": "692db5d2586cb3c517a1ad33"
+  },
+  "roomName": "test7",
+  "challengeId": {
+    "$oid": "692dad9e1808ca03bb4cca34"
+  },
+  "challengeTitle": "Tổng hai số",
+  "participants": [
+    {
+      "userId": {
+        "$oid": "692d497c0c1a1b0f210277a8"
+      },
+      "username": "thanh1",
+      "score": 100,
+      "passedTests": 6,
+      "totalTests": 6,
+      "completionTime": 36133,
+      "isWinner": true,
+      "_id": {
+        "$oid": "692db5e6586cb3c517a1ad6f"
+      },
+      "submittedAt": {
+        "$date": "2025-12-01T15:36:43.016Z"
+      }
+    },
+    {
+      "userId": {
+        "$oid": "690576be9d98232c82cf9dd1"
+      },
+      "username": "ThanhToxic",
+      "score": 0,
+      "passedTests": 0,
+      "totalTests": 6,
+      "completionTime": 0,
+      "isWinner": false,
+      "_id": {
+        "$oid": "692db5e6586cb3c517a1ad70"
+      }
+    }
+  ],
+  "status": "completed",
+  "startedAt": {
+    "$date": "2025-12-01T15:36:06.882Z"
+  },
+  "settings": {
+    "timeLimit": 10,
+    "difficulty": "Easy",
+    "maxParticipants": 2
+  },
+  "timeLimit": 10,
+  "difficulty": "Easy",
+  "createdAt": {
+    "$date": "2025-12-01T15:36:06.890Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-01T15:36:45.268Z"
+  },
+  "__v": 0,
+  "completedAt": {
+    "$date": "2025-12-01T15:36:45.266Z"
+  },
+  "winnerId": {
+    "$oid": "692d497c0c1a1b0f210277a8"
+  }
+},
+{
+  "_id": {
+    "$oid": "692db89cffdd62439cc11baf"
+  },
+  "roomId": {
+    "$oid": "692db88bffdd62439cc11b74"
+  },
+  "roomName": "test6",
+  "challengeId": {
+    "$oid": "692dad9e1808ca03bb4cca34"
+  },
+  "challengeTitle": "Tổng hai số",
+  "participants": [
+    {
+      "userId": {
+        "$oid": "692d497c0c1a1b0f210277a8"
+      },
+      "username": "thanh1",
+      "score": 100,
+      "passedTests": 6,
+      "totalTests": 6,
+      "completionTime": 44121,
+      "isWinner": true,
+      "_id": {
+        "$oid": "692db89cffdd62439cc11bb0"
+      },
+      "submittedAt": {
+        "$date": "2025-12-01T15:48:24.497Z"
+      }
+    },
+    {
+      "userId": {
+        "$oid": "690576be9d98232c82cf9dd1"
+      },
+      "username": "ThanhToxic",
+      "score": 0,
+      "passedTests": 0,
+      "totalTests": 6,
+      "completionTime": 0,
+      "isWinner": false,
+      "_id": {
+        "$oid": "692db89cffdd62439cc11bb1"
+      }
+    }
+  ],
+  "status": "completed",
+  "startedAt": {
+    "$date": "2025-12-01T15:47:40.375Z"
+  },
+  "settings": {
+    "timeLimit": 10,
+    "difficulty": "Easy",
+    "maxParticipants": 2
+  },
+  "timeLimit": 10,
+  "difficulty": "Easy",
+  "createdAt": {
+    "$date": "2025-12-01T15:47:40.382Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-01T15:48:26.532Z"
+  },
+  "__v": 0,
+  "completedAt": {
+    "$date": "2025-12-01T15:48:26.530Z"
+  },
+  "winnerId": {
+    "$oid": "692d497c0c1a1b0f210277a8"
+  }
+},
+{
+  "_id": {
+    "$oid": "692db8fcffdd62439cc11d07"
+  },
+  "roomId": {
+    "$oid": "692db8f6ffdd62439cc11ccb"
+  },
+  "roomName": "test8",
+  "challengeId": {
+    "$oid": "692dad9e1808ca03bb4cca34"
+  },
+  "challengeTitle": "Tổng hai số",
+  "participants": [
+    {
+      "userId": {
+        "$oid": "692d497c0c1a1b0f210277a8"
+      },
+      "username": "thanh1",
+      "score": 0,
+      "passedTests": 0,
+      "totalTests": 6,
+      "completionTime": 0,
+      "isWinner": true,
+      "_id": {
+        "$oid": "692db8fcffdd62439cc11d08"
+      }
+    },
+    {
+      "userId": {
+        "$oid": "690576be9d98232c82cf9dd1"
+      },
+      "username": "ThanhToxic",
+      "score": 0,
+      "passedTests": 0,
+      "totalTests": 6,
+      "completionTime": 5897,
+      "isWinner": false,
+      "_id": {
+        "$oid": "692db8fcffdd62439cc11d09"
+      }
+    }
+  ],
+  "status": "completed",
+  "startedAt": {
+    "$date": "2025-12-01T15:49:16.512Z"
+  },
+  "settings": {
+    "timeLimit": 10,
+    "difficulty": "Easy",
+    "maxParticipants": 2
+  },
+  "timeLimit": 10,
+  "difficulty": "Easy",
+  "createdAt": {
+    "$date": "2025-12-01T15:49:16.516Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-01T15:49:22.414Z"
+  },
+  "__v": 0,
+  "completedAt": {
+    "$date": "2025-12-01T15:49:22.409Z"
+  },
+  "winnerId": {
+    "$oid": "692d497c0c1a1b0f210277a8"
+  }
+},
+{
+  "_id": {
+    "$oid": "692dbd69d4bf5db059e3fec5"
+  },
+  "roomId": {
+    "$oid": "692dbd5ad4bf5db059e3fe80"
+  },
+  "roomName": "thanh",
+  "challengeId": {
+    "$oid": "692dad9e1808ca03bb4cca34"
+  },
+  "challengeTitle": "Tổng hai số",
+  "participants": [
+    {
+      "userId": {
+        "$oid": "692d497c0c1a1b0f210277a8"
+      },
+      "username": "thanh1",
+      "score": 0,
+      "passedTests": 0,
+      "totalTests": 6,
+      "completionTime": 47392,
+      "isWinner": false,
+      "_id": {
+        "$oid": "692dbd69d4bf5db059e3fec6"
+      }
+    },
+    {
+      "userId": {
+        "$oid": "690576be9d98232c82cf9dd1"
+      },
+      "username": "ThanhToxic",
+      "score": 0,
+      "passedTests": 0,
+      "totalTests": 6,
+      "completionTime": 0,
+      "isWinner": true,
+      "_id": {
+        "$oid": "692dbd69d4bf5db059e3fec7"
+      }
+    }
+  ],
+  "status": "completed",
+  "startedAt": {
+    "$date": "2025-12-01T16:08:09.251Z"
+  },
+  "settings": {
+    "timeLimit": 10,
+    "difficulty": "Easy",
+    "maxParticipants": 2
+  },
+  "timeLimit": 10,
+  "difficulty": "Easy",
+  "createdAt": {
+    "$date": "2025-12-01T16:08:09.262Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-01T16:08:56.653Z"
+  },
+  "__v": 0,
+  "completedAt": {
+    "$date": "2025-12-01T16:08:56.644Z"
+  },
+  "winnerId": {
+    "$oid": "690576be9d98232c82cf9dd1"
+  }
+},
+{
+  "_id": {
+    "$oid": "69306a7ff808cc0225a0240e"
+  },
+  "roomId": {
+    "$oid": "69306a68f808cc0225a023cd"
+  },
+  "roomName": "12312511",
+  "challengeId": {
+    "$oid": "692dad9e1808ca03bb4cca34"
+  },
+  "challengeTitle": "Tổng hai số",
+  "participants": [
+    {
+      "userId": {
+        "$oid": "692d497c0c1a1b0f210277a8"
+      },
+      "username": "thanh1",
+      "score": 0,
+      "passedTests": 0,
+      "totalTests": 6,
+      "completionTime": 0,
+      "isWinner": true,
+      "_id": {
+        "$oid": "69306a7ff808cc0225a0240f"
+      }
+    },
+    {
+      "userId": {
+        "$oid": "690576be9d98232c82cf9dd1"
+      },
+      "username": "ThanhToxic",
+      "score": 0,
+      "passedTests": 0,
+      "totalTests": 6,
+      "completionTime": 60247,
+      "isWinner": false,
+      "_id": {
+        "$oid": "69306a7ff808cc0225a02410"
+      }
+    }
+  ],
+  "status": "completed",
+  "startedAt": {
+    "$date": "2025-12-03T16:51:11.675Z"
+  },
+  "settings": {
+    "timeLimit": 10,
+    "difficulty": "Easy",
+    "maxParticipants": 2
+  },
+  "timeLimit": 10,
+  "difficulty": "Easy",
+  "createdAt": {
+    "$date": "2025-12-03T16:51:11.683Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T16:52:11.925Z"
+  },
+  "__v": 0,
+  "completedAt": {
+    "$date": "2025-12-03T16:52:11.923Z"
+  },
+  "winnerId": {
+    "$oid": "692d497c0c1a1b0f210277a8"
+  }
+},
+{
+  "_id": {
+    "$oid": "69306c7af808cc0225a02790"
+  },
+  "roomId": {
+    "$oid": "69306c71f808cc0225a02744"
+  },
+  "roomName": "31242131242313531242131242313543523124231313124231",
+  "challengeId": {
+    "$oid": "692dad9e1808ca03bb4cca34"
+  },
+  "challengeTitle": "Tổng hai số",
+  "participants": [
+    {
+      "userId": {
+        "$oid": "690576be9d98232c82cf9dd1"
+      },
+      "username": "ThanhToxic",
+      "score": 0,
+      "passedTests": 0,
+      "totalTests": 6,
+      "completionTime": 18197,
+      "isWinner": false,
+      "_id": {
+        "$oid": "69306c7af808cc0225a02791"
+      }
+    },
+    {
+      "userId": {
+        "$oid": "692d497c0c1a1b0f210277a8"
+      },
+      "username": "thanh1",
+      "score": 0,
+      "passedTests": 0,
+      "totalTests": 6,
+      "completionTime": 0,
+      "isWinner": true,
+      "_id": {
+        "$oid": "69306c7af808cc0225a02792"
+      }
+    }
+  ],
+  "status": "completed",
+  "startedAt": {
+    "$date": "2025-12-03T16:59:38.412Z"
+  },
+  "settings": {
+    "timeLimit": 10,
+    "difficulty": "Easy",
+    "maxParticipants": 2
+  },
+  "timeLimit": 10,
+  "difficulty": "Easy",
+  "createdAt": {
+    "$date": "2025-12-03T16:59:38.418Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T16:59:56.611Z"
+  },
+  "__v": 0,
+  "completedAt": {
+    "$date": "2025-12-03T16:59:56.610Z"
+  },
+  "winnerId": {
+    "$oid": "692d497c0c1a1b0f210277a8"
+  }
+},
+{
+  "_id": {
+    "$oid": "6931b46a35362e95b8312553"
+  },
+  "roomId": {
+    "$oid": "6931b44a35362e95b83124df"
+  },
+  "roomName": "42242",
+  "challengeId": {
+    "$oid": "692dad9e1808ca03bb4cca34"
+  },
+  "challengeTitle": "Tổng hai số",
+  "participants": [
+    {
+      "userId": {
+        "$oid": "68e9aef690945482f3158ac2"
+      },
+      "username": "admin",
+      "score": 0,
+      "passedTests": 0,
+      "totalTests": 6,
+      "completionTime": 0,
+      "isWinner": true,
+      "_id": {
+        "$oid": "6931b46a35362e95b8312554"
+      }
+    },
+    {
+      "userId": {
+        "$oid": "690576be9d98232c82cf9dd1"
+      },
+      "username": "ThanhToxic",
+      "score": 0,
+      "passedTests": 0,
+      "totalTests": 6,
+      "completionTime": 5195,
+      "isWinner": false,
+      "_id": {
+        "$oid": "6931b46a35362e95b8312555"
+      }
+    }
+  ],
+  "status": "completed",
+  "startedAt": {
+    "$date": "2025-12-04T16:18:50.368Z"
+  },
+  "settings": {
+    "timeLimit": 10,
+    "difficulty": "Easy",
+    "maxParticipants": 2
+  },
+  "timeLimit": 10,
+  "difficulty": "Easy",
+  "createdAt": {
+    "$date": "2025-12-04T16:18:50.374Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T16:18:55.567Z"
+  },
+  "__v": 0,
+  "completedAt": {
+    "$date": "2025-12-04T16:18:55.564Z"
+  },
+  "winnerId": {
+    "$oid": "68e9aef690945482f3158ac2"
+  }
+},
+{
+  "_id": {
+    "$oid": "693288dba45da6570ae678f4"
+  },
+  "roomId": {
+    "$oid": "693288c6a45da6570ae67656"
+  },
+  "roomName": "test1",
+  "challengeId": {
+    "$oid": "69323c7dbe548fa92ab27dc2"
+  },
+  "challengeTitle": "Kiểm Tra Số Chẵn Lẻ",
+  "participants": [
+    {
+      "userId": {
+        "$oid": "692d497c0c1a1b0f210277a8"
+      },
+      "username": "thanh1",
+      "score": 0,
+      "passedTests": 0,
+      "totalTests": 5,
+      "completionTime": 277749,
+      "isWinner": false,
+      "_id": {
+        "$oid": "693288dba45da6570ae678f5"
+      },
+      "submittedAt": {
+        "$date": "2025-12-05T07:28:09.723Z"
+      }
+    },
+    {
+      "userId": {
+        "$oid": "690576be9d98232c82cf9dd1"
+      },
+      "username": "ThanhToxic",
+      "score": 60,
+      "passedTests": 3,
+      "totalTests": 5,
+      "completionTime": 110273,
+      "isWinner": true,
+      "_id": {
+        "$oid": "693288dba45da6570ae678f6"
+      },
+      "submittedAt": {
+        "$date": "2025-12-05T07:27:05.857Z"
+      }
+    }
+  ],
+  "status": "completed",
+  "startedAt": {
+    "$date": "2025-12-05T07:25:15.584Z"
+  },
+  "settings": {
+    "timeLimit": 10,
+    "difficulty": "Easy",
+    "maxParticipants": 2
+  },
+  "timeLimit": 10,
+  "difficulty": "Easy",
+  "createdAt": {
+    "$date": "2025-12-05T07:25:15.588Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-05T07:29:53.334Z"
+  },
+  "__v": 0,
+  "completedAt": {
+    "$date": "2025-12-05T07:29:53.333Z"
+  },
+  "winnerId": {
+    "$oid": "690576be9d98232c82cf9dd1"
+  }
+},
+{
+  "_id": {
+    "$oid": "69328b22580aa83c1ba7d5a2"
+  },
+  "roomId": {
+    "$oid": "69328b12580aa83c1ba7d54e"
+  },
+  "roomName": "test4",
+  "challengeId": {
+    "$oid": "69323c7dbe548fa92ab27dcb"
+  },
+  "challengeTitle": "Đếm Ký Tự Trong Chuỗi",
+  "participants": [
+    {
+      "userId": {
+        "$oid": "692d497c0c1a1b0f210277a8"
+      },
+      "username": "thanh1",
+      "score": 80,
+      "passedTests": 4,
+      "totalTests": 5,
+      "completionTime": 31369,
+      "isWinner": true,
+      "_id": {
+        "$oid": "69328b22580aa83c1ba7d5a3"
+      },
+      "submittedAt": {
+        "$date": "2025-12-05T07:35:29.910Z"
+      }
+    },
+    {
+      "userId": {
+        "$oid": "690576be9d98232c82cf9dd1"
+      },
+      "username": "ThanhToxic",
+      "score": 0,
+      "passedTests": 4,
+      "totalTests": 5,
+      "completionTime": 114332,
+      "isWinner": false,
+      "_id": {
+        "$oid": "69328b22580aa83c1ba7d5a4"
+      },
+      "submittedAt": {
+        "$date": "2025-12-05T07:36:26.224Z"
+      }
+    }
+  ],
+  "status": "completed",
+  "startedAt": {
+    "$date": "2025-12-05T07:34:58.540Z"
+  },
+  "settings": {
+    "timeLimit": 10,
+    "difficulty": "Easy",
+    "maxParticipants": 2
+  },
+  "timeLimit": 10,
+  "difficulty": "Easy",
+  "createdAt": {
+    "$date": "2025-12-05T07:34:58.546Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-05T07:36:52.874Z"
+  },
+  "__v": 0,
+  "completedAt": {
+    "$date": "2025-12-05T07:36:52.873Z"
+  },
+  "winnerId": {
+    "$oid": "692d497c0c1a1b0f210277a8"
+  }
+},
+{
+  "_id": {
+    "$oid": "69328f2f580aa83c1ba7df30"
+  },
+  "roomId": {
+    "$oid": "69328f0e580aa83c1ba7dc8e"
+  },
+  "roomName": "test5",
+  "challengeId": {
+    "$oid": "692dad9e1808ca03bb4cca34"
+  },
+  "challengeTitle": "Tổng hai số",
+  "participants": [
+    {
+      "userId": {
+        "$oid": "692d497c0c1a1b0f210277a8"
+      },
+      "username": "thanh1",
+      "score": 100,
+      "passedTests": 6,
+      "totalTests": 6,
+      "completionTime": 41675,
+      "isWinner": true,
+      "_id": {
+        "$oid": "69328f2f580aa83c1ba7df31"
+      },
+      "submittedAt": {
+        "$date": "2025-12-05T07:52:57.303Z"
+      }
+    },
+    {
+      "userId": {
+        "$oid": "690576be9d98232c82cf9dd1"
+      },
+      "username": "ThanhToxic",
+      "score": 0,
+      "passedTests": 0,
+      "totalTests": 6,
+      "completionTime": 0,
+      "isWinner": false,
+      "_id": {
+        "$oid": "69328f2f580aa83c1ba7df32"
+      }
+    }
+  ],
+  "status": "completed",
+  "startedAt": {
+    "$date": "2025-12-05T07:52:15.628Z"
+  },
+  "settings": {
+    "timeLimit": 10,
+    "difficulty": "Easy",
+    "maxParticipants": 2
+  },
+  "timeLimit": 10,
+  "difficulty": "Easy",
+  "createdAt": {
+    "$date": "2025-12-05T07:52:15.630Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-05T07:52:59.328Z"
+  },
+  "__v": 0,
+  "completedAt": {
+    "$date": "2025-12-05T07:52:59.328Z"
+  },
+  "winnerId": {
+    "$oid": "692d497c0c1a1b0f210277a8"
+  }
+},
+{
+  "_id": {
+    "$oid": "69350c335bd109c3724cbdc5"
+  },
+  "roomId": {
+    "$oid": "69350bee5bd109c3724cbd51"
+  },
+  "roomName": "test1",
+  "challengeId": {
+    "$oid": "69323c7dbe548fa92ab27dde"
+  },
+  "challengeTitle": "Đảo Ngược Chuỗi",
+  "participants": [
+    {
+      "userId": {
+        "$oid": "690576be9d98232c82cf9dd1"
+      },
+      "username": "ThanhToxic",
+      "score": 80,
+      "passedTests": 4,
+      "totalTests": 5,
+      "completionTime": 91370,
+      "isWinner": true,
+      "_id": {
+        "$oid": "69350c335bd109c3724cbdc6"
+      },
+      "submittedAt": {
+        "$date": "2025-12-07T05:11:43.234Z"
+      }
+    },
+    {
+      "userId": {
+        "$oid": "692d497c0c1a1b0f210277a8"
+      },
+      "username": "thanh1",
+      "score": 0,
+      "passedTests": 0,
+      "totalTests": 5,
+      "completionTime": 105104,
+      "isWinner": false,
+      "_id": {
+        "$oid": "69350c335bd109c3724cbdc7"
+      }
+    }
+  ],
+  "status": "completed",
+  "startedAt": {
+    "$date": "2025-12-07T05:10:11.864Z"
+  },
+  "settings": {
+    "timeLimit": 15,
+    "difficulty": "Medium",
+    "maxParticipants": 2
+  },
+  "timeLimit": 15,
+  "difficulty": "Medium",
+  "createdAt": {
+    "$date": "2025-12-07T05:10:11.880Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-07T05:11:56.971Z"
+  },
+  "__v": 0,
+  "completedAt": {
+    "$date": "2025-12-07T05:11:56.970Z"
+  },
+  "winnerId": {
+    "$oid": "690576be9d98232c82cf9dd1"
+  }
+}]

@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "6931b3f435362e95b83120be"
+  },
+  "user_id": {
+    "$oid": "68e9aef690945482f3158ac2"
+  },
+  "type": "language_preference",
+  "languages": [
+    "Python",
+    "JavaScript",
+    "Java"
+  ],
+  "updated_at": {
+    "$date": "2025-12-04T16:16:52.280Z"
+  },
+  "created_at": {
+    "$date": "2025-12-04T16:16:52.271Z"
+  },
+  "__v": 0
+}]

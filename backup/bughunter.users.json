@@ -1,0 +1,1299 @@
+[{
+  "_id": {
+    "$oid": "68e9aef690945482f3158ac2"
+  },
+  "email": "admin@bughunter.com",
+  "username": "admin",
+  "password": "$2b$10$dax28ei1vqhAjlwPO.TlQetVMVzV55gLkWt20zAI5iGL.WRq0LMvi",
+  "avatar": "",
+  "favoriteLanguages": [
+    "Python",
+    "JavaScript",
+    "Java"
+  ],
+  "experience": 1035,
+  "rank": "Expert",
+  "badges": [
+    "admin",
+    "founder"
+  ],
+  "createdAt": {
+    "$date": "2025-10-11T01:12:22.845Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-05T08:00:36.135Z"
+  },
+  "__v": 2,
+  "loginMethod": "local",
+  "level": 1,
+  "pvpStats": {
+    "averageCompletionTime": 0,
+    "bestStreak": 0,
+    "currentStreak": 0,
+    "draws": 0,
+    "losses": 0,
+    "totalMatches": 1,
+    "winRate": 0,
+    "wins": 1
+  },
+  "rating": 1200,
+  "role": "admin",
+  "completedChallenges": [
+    {
+      "challengeId": {
+        "$oid": "692dad9e1808ca03bb4cca34"
+      },
+      "completedAt": {
+        "$date": "2025-12-03T17:59:55.783Z"
+      },
+      "maxScoreAchieved": 70,
+      "tokenAwarded": true,
+      "_id": {
+        "$oid": "69307a9bc12893eb2f0f88a6"
+      }
+    }
+  ],
+  "isBanned": false,
+  "tokens": 0,
+  "unlockedSolutions": [
+    {
+      "challengeId": {
+        "$oid": "692dad9e1808ca03bb4cca34"
+      },
+      "solutionIndex": 0,
+      "unlockedAt": {
+        "$date": "2025-12-03T18:00:41.625Z"
+      },
+      "_id": {
+        "$oid": "69307ac9c12893eb2f0f8a7c"
+      }
+    }
+  ],
+  "settings": {
+    "background": {
+      "id": "default",
+      "url": "/logo.jpg",
+      "label": "Mặc định"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68fc4c78f93f61d05f2761ed"
+  },
+  "email": "thanh@gmail.com",
+  "username": "thanh",
+  "password": "$2b$10$V4ibKR3Tq8S2/PrG4u4aqe019Fnenz44Eh56ZJBRic01eZ4fp6A3G",
+  "avatar": "",
+  "favoriteLanguages": [],
+  "experience": 0,
+  "rank": "Newbie",
+  "badges": [],
+  "createdAt": {
+    "$date": "2025-10-25T04:05:12.376Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-25T04:05:12.376Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690576be9d98232c82cf9dd1"
+  },
+  "email": "thanh123@gmail.com",
+  "username": "ThanhToxic",
+  "password": "$2b$10$F..j1auXZNGreOl1vZQnZeGtfqa3rmYzimGj.Io0i3g1zolj599W.",
+  "avatar": "",
+  "favoriteLanguages": [],
+  "experience": 224,
+  "rank": "Junior",
+  "badges": [],
+  "loginMethod": "local",
+  "createdAt": {
+    "$date": "2025-11-01T02:55:58.182Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-07T05:11:57.003Z"
+  },
+  "__v": 2,
+  "pvpStats": {
+    "losses": 9,
+    "totalMatches": 12,
+    "wins": 3,
+    "averageCompletionTime": 0,
+    "bestStreak": 0,
+    "currentStreak": 0,
+    "draws": 0,
+    "winRate": 0
+  },
+  "completedChallenges": [
+    {
+      "challengeId": {
+        "$oid": "692dad9e1808ca03bb4cca34"
+      },
+      "completedAt": {
+        "$date": "2025-12-05T02:04:40.173Z"
+      },
+      "maxScoreAchieved": 70,
+      "tokenAwarded": true,
+      "_id": {
+        "$oid": "69323db8dd2075e03fa93568"
+      }
+    },
+    {
+      "challengeId": {
+        "$oid": "69323c7dbe548fa92ab27db9"
+      },
+      "completedAt": {
+        "$date": "2025-12-07T05:03:00.433Z"
+      },
+      "maxScoreAchieved": 100,
+      "tokenAwarded": true,
+      "_id": {
+        "$oid": "69350a845bd109c3724cbca9"
+      }
+    }
+  ],
+  "isBanned": false,
+  "level": 1,
+  "rating": 1200,
+  "role": "user",
+  "tokens": 2,
+  "unlockedSolutions": []
+},
+{
+  "_id": {
+    "$oid": "692d497c0c1a1b0f210277a8"
+  },
+  "email": "teotoxic811@gmail.com",
+  "username": "thanh1",
+  "password": "$2b$10$c191omfGKu.2A6Th4k3gY.gfBzJFbUJSmqSYTVln7VHMQa5shkWNS",
+  "avatar": "",
+  "favoriteLanguages": [],
+  "experience": 142,
+  "rank": "Junior",
+  "badges": [],
+  "loginMethod": "local",
+  "rating": 1200,
+  "level": 1,
+  "role": "user",
+  "pvpStats": {
+    "wins": 8,
+    "losses": 3,
+    "draws": 0,
+    "totalMatches": 11,
+    "winRate": 0,
+    "currentStreak": 0,
+    "bestStreak": 0,
+    "averageCompletionTime": 0
+  },
+  "createdAt": {
+    "$date": "2025-12-01T07:53:32.574Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-07T05:11:56.985Z"
+  },
+  "__v": 1,
+  "completedChallenges": [],
+  "isBanned": false,
+  "settings": {
+    "background": {
+      "id": "code",
+      "url": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80",
+      "label": "Code"
+    }
+  },
+  "tokens": 0,
+  "unlockedSolutions": []
+},
+{
+  "_id": {
+    "$oid": "6930577dada7091b9e6db251"
+  },
+  "email": "codemaster2024@example.com",
+  "username": "CodeMaster2024",
+  "password": "$2b$10$aLvkEuVnP5Bq/pEvBxlgTe8Z3r.wfTtAvZ74GoDQtMmTQsYHXtRue",
+  "avatar": "",
+  "favoriteLanguages": [
+    "Python",
+    "JavaScript",
+    "Java"
+  ],
+  "experience": 158,
+  "rank": "Newbie",
+  "badges": [
+    "🌱"
+  ],
+  "loginMethod": "local",
+  "role": "user",
+  "isBanned": false,
+  "rating": 1433,
+  "level": 1,
+  "pvpStats": {
+    "wins": 47,
+    "losses": 5,
+    "draws": 1,
+    "totalMatches": 53,
+    "winRate": 89,
+    "currentStreak": 0,
+    "bestStreak": 14,
+    "averageCompletionTime": 447
+  },
+  "createdAt": {
+    "$date": "2025-12-03T15:30:05.873Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T15:30:05.873Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6930577eada7091b9e6db254"
+  },
+  "email": "bughunter99@example.com",
+  "username": "BugHunter99",
+  "password": "$2b$10$dHQEeND4Dha.1md3C0le1eLleArmnlpcAV3F714nJxUf3EzorZiNu",
+  "avatar": "",
+  "favoriteLanguages": [
+    "Python",
+    "JavaScript"
+  ],
+  "experience": 126,
+  "rank": "Newbie",
+  "badges": [
+    "🌱"
+  ],
+  "loginMethod": "local",
+  "role": "user",
+  "isBanned": false,
+  "rating": 1370,
+  "level": 1,
+  "pvpStats": {
+    "wins": 11,
+    "losses": 17,
+    "draws": 4,
+    "totalMatches": 32,
+    "winRate": 34,
+    "currentStreak": 2,
+    "bestStreak": 13,
+    "averageCompletionTime": 366
+  },
+  "createdAt": {
+    "$date": "2025-12-03T15:30:06.040Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T15:30:06.040Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6930577eada7091b9e6db257"
+  },
+  "email": "devninja@example.com",
+  "username": "DevNinja",
+  "password": "$2b$10$MjgR7SsvzKij1Ld3h5j.6uE2CejLUnF0W/kzlZcSBqFZvCgE7rWgG",
+  "avatar": "",
+  "favoriteLanguages": [
+    "Python",
+    "JavaScript",
+    "Java"
+  ],
+  "experience": 174,
+  "rank": "Newbie",
+  "badges": [
+    "🌱"
+  ],
+  "loginMethod": "local",
+  "role": "user",
+  "isBanned": false,
+  "rating": 1822,
+  "level": 1,
+  "pvpStats": {
+    "wins": 29,
+    "losses": 0,
+    "draws": 6,
+    "totalMatches": 35,
+    "winRate": 83,
+    "currentStreak": 2,
+    "bestStreak": 5,
+    "averageCompletionTime": 399
+  },
+  "createdAt": {
+    "$date": "2025-12-03T15:30:06.178Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T15:30:06.178Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6930577eada7091b9e6db25a"
+  },
+  "email": "pythonpro@example.com",
+  "username": "PythonPro",
+  "password": "$2b$10$l5zdLmb6TKNv9JnCRZFnh.ObuwzgYtDIQy/Ui4vRwTvtNT.ZRhX5.",
+  "avatar": "",
+  "favoriteLanguages": [
+    "Python",
+    "JavaScript",
+    "Java"
+  ],
+  "experience": 556,
+  "rank": "Newbie",
+  "badges": [
+    "🌱"
+  ],
+  "loginMethod": "local",
+  "role": "user",
+  "isBanned": false,
+  "rating": 1748,
+  "level": 1,
+  "pvpStats": {
+    "wins": 38,
+    "losses": 19,
+    "draws": 2,
+    "totalMatches": 59,
+    "winRate": 64,
+    "currentStreak": 3,
+    "bestStreak": 9,
+    "averageCompletionTime": 246
+  },
+  "createdAt": {
+    "$date": "2025-12-03T15:30:06.308Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T15:30:06.308Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6930577eada7091b9e6db25d"
+  },
+  "email": "jsexpert@example.com",
+  "username": "JSExpert",
+  "password": "$2b$10$gnrLVLGdSpaq.QOc2C/ny.ZCZvhtSsd2rVr6pmp3nQbY5H89k8Him",
+  "avatar": "",
+  "favoriteLanguages": [
+    "Python",
+    "JavaScript"
+  ],
+  "experience": 306,
+  "rank": "Newbie",
+  "badges": [
+    "🌱"
+  ],
+  "loginMethod": "local",
+  "role": "user",
+  "isBanned": false,
+  "rating": 1655,
+  "level": 1,
+  "pvpStats": {
+    "wins": 5,
+    "losses": 19,
+    "draws": 7,
+    "totalMatches": 31,
+    "winRate": 16,
+    "currentStreak": 0,
+    "bestStreak": 10,
+    "averageCompletionTime": 232
+  },
+  "createdAt": {
+    "$date": "2025-12-03T15:30:06.446Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T15:30:06.446Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6930577eada7091b9e6db260"
+  },
+  "email": "algogenius@example.com",
+  "username": "AlgoGenius",
+  "password": "$2b$10$Xk7Io53ZgTXVtqhfBlDnQOB9b7l3H.x6BVFPIoZQ7KoQfEC.48O/m",
+  "avatar": "",
+  "favoriteLanguages": [
+    "Python"
+  ],
+  "experience": 779,
+  "rank": "Junior",
+  "badges": [
+    "🌱",
+    "⭐"
+  ],
+  "loginMethod": "local",
+  "role": "user",
+  "isBanned": false,
+  "rating": 1608,
+  "level": 1,
+  "pvpStats": {
+    "wins": 48,
+    "losses": 9,
+    "draws": 2,
+    "totalMatches": 59,
+    "winRate": 81,
+    "currentStreak": 3,
+    "bestStreak": 13,
+    "averageCompletionTime": 380
+  },
+  "createdAt": {
+    "$date": "2025-12-03T15:30:06.578Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T15:30:06.578Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6930577eada7091b9e6db263"
+  },
+  "email": "datawizard@example.com",
+  "username": "DataWizard",
+  "password": "$2b$10$PcTQvt8pV7.H43LsVrdjA.QyAXpkJp.tJnhEMAwkWzkfeS5Ja/8Fe",
+  "avatar": "",
+  "favoriteLanguages": [
+    "Python",
+    "JavaScript"
+  ],
+  "experience": 1294,
+  "rank": "Junior",
+  "badges": [
+    "🌱",
+    "⭐"
+  ],
+  "loginMethod": "local",
+  "role": "user",
+  "isBanned": false,
+  "rating": 1936,
+  "level": 2,
+  "pvpStats": {
+    "wins": 46,
+    "losses": 14,
+    "draws": 6,
+    "totalMatches": 66,
+    "winRate": 70,
+    "currentStreak": 1,
+    "bestStreak": 10,
+    "averageCompletionTime": 351
+  },
+  "createdAt": {
+    "$date": "2025-12-03T15:30:06.710Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T15:30:06.710Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6930577eada7091b9e6db266"
+  },
+  "email": "fullstackdev@example.com",
+  "username": "FullStackDev",
+  "password": "$2b$10$0FRGQFoHMmIvc7edU.BrkehpKam9mYdI/Y0eX6R1WWuBnlC7HUZvu",
+  "avatar": "",
+  "favoriteLanguages": [
+    "Python",
+    "JavaScript",
+    "Java"
+  ],
+  "experience": 552,
+  "rank": "Junior",
+  "badges": [
+    "🌱",
+    "⭐"
+  ],
+  "loginMethod": "local",
+  "role": "user",
+  "isBanned": false,
+  "rating": 1508,
+  "level": 1,
+  "pvpStats": {
+    "wins": 32,
+    "losses": 5,
+    "draws": 0,
+    "totalMatches": 37,
+    "winRate": 86,
+    "currentStreak": 4,
+    "bestStreak": 6,
+    "averageCompletionTime": 318
+  },
+  "createdAt": {
+    "$date": "2025-12-03T15:30:06.829Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T15:30:06.829Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6930577eada7091b9e6db269"
+  },
+  "email": "reactfan@example.com",
+  "username": "ReactFan",
+  "password": "$2b$10$nax7gGiXY4uTOcqVup3XL.RPpZ4MDkJ3V/mvAp47haC5uRPm7jLX6",
+  "avatar": "",
+  "favoriteLanguages": [
+    "Python",
+    "JavaScript",
+    "Java"
+  ],
+  "experience": 777,
+  "rank": "Junior",
+  "badges": [
+    "🌱",
+    "⭐"
+  ],
+  "loginMethod": "local",
+  "role": "user",
+  "isBanned": false,
+  "rating": 1637,
+  "level": 1,
+  "pvpStats": {
+    "wins": 17,
+    "losses": 7,
+    "draws": 2,
+    "totalMatches": 26,
+    "winRate": 65,
+    "currentStreak": 2,
+    "bestStreak": 8,
+    "averageCompletionTime": 417
+  },
+  "createdAt": {
+    "$date": "2025-12-03T15:30:06.957Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T15:30:06.957Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6930577fada7091b9e6db26c"
+  },
+  "email": "nodemaster@example.com",
+  "username": "NodeMaster",
+  "password": "$2b$10$Dio.4y8UywQrmECkL1of6.xxneci4kG2Rtl/hn/KSvEYMYUkSbIfS",
+  "avatar": "",
+  "favoriteLanguages": [
+    "Python"
+  ],
+  "experience": 932,
+  "rank": "Junior",
+  "badges": [
+    "🌱",
+    "⭐"
+  ],
+  "loginMethod": "local",
+  "role": "user",
+  "isBanned": false,
+  "rating": 1481,
+  "level": 1,
+  "pvpStats": {
+    "wins": 28,
+    "losses": 5,
+    "draws": 9,
+    "totalMatches": 42,
+    "winRate": 67,
+    "currentStreak": 0,
+    "bestStreak": 6,
+    "averageCompletionTime": 271
+  },
+  "createdAt": {
+    "$date": "2025-12-03T15:30:07.084Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T15:30:07.084Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6930577fada7091b9e6db26f"
+  },
+  "email": "cppwarrior@example.com",
+  "username": "CppWarrior",
+  "password": "$2b$10$oQUlpsvmFnmh4WzDzK.q1eGZmeTbSXUxTpolLjo9syWYNVlrWinya",
+  "avatar": "",
+  "favoriteLanguages": [
+    "Python",
+    "JavaScript"
+  ],
+  "experience": 1833,
+  "rank": "Intermediate",
+  "badges": [
+    "🌱",
+    "⭐",
+    "🔥"
+  ],
+  "loginMethod": "local",
+  "role": "user",
+  "isBanned": false,
+  "rating": 1205,
+  "level": 2,
+  "pvpStats": {
+    "wins": 28,
+    "losses": 23,
+    "draws": 7,
+    "totalMatches": 58,
+    "winRate": 48,
+    "currentStreak": 4,
+    "bestStreak": 5,
+    "averageCompletionTime": 199
+  },
+  "createdAt": {
+    "$date": "2025-12-03T15:30:07.209Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T15:30:07.209Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6930577fada7091b9e6db272"
+  },
+  "email": "javaking@example.com",
+  "username": "JavaKing",
+  "password": "$2b$10$UPKL21atTLgN5RW3m.5aNua0A0ONYxwj7bOa2NB5cT5rm7tbVxm6C",
+  "avatar": "",
+  "favoriteLanguages": [
+    "Python",
+    "JavaScript",
+    "Java"
+  ],
+  "experience": 1996,
+  "rank": "Intermediate",
+  "badges": [
+    "🌱",
+    "⭐",
+    "🔥"
+  ],
+  "loginMethod": "local",
+  "role": "user",
+  "isBanned": false,
+  "rating": 1252,
+  "level": 2,
+  "pvpStats": {
+    "wins": 7,
+    "losses": 15,
+    "draws": 0,
+    "totalMatches": 22,
+    "winRate": 32,
+    "currentStreak": 2,
+    "bestStreak": 14,
+    "averageCompletionTime": 194
+  },
+  "createdAt": {
+    "$date": "2025-12-03T15:30:07.328Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T15:30:07.328Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6930577fada7091b9e6db275"
+  },
+  "email": "rustlover@example.com",
+  "username": "RustLover",
+  "password": "$2b$10$NLhtsBDPx/vdjjc6o5zZa.wJk/GlSSZ2zHIVcSBJ2u6Ucv029iPP.",
+  "avatar": "",
+  "favoriteLanguages": [
+    "Python",
+    "JavaScript"
+  ],
+  "experience": 3054,
+  "rank": "Intermediate",
+  "badges": [
+    "🌱",
+    "⭐",
+    "🔥"
+  ],
+  "loginMethod": "local",
+  "role": "user",
+  "isBanned": false,
+  "rating": 1406,
+  "level": 4,
+  "pvpStats": {
+    "wins": 36,
+    "losses": 27,
+    "draws": 6,
+    "totalMatches": 69,
+    "winRate": 52,
+    "currentStreak": 4,
+    "bestStreak": 8,
+    "averageCompletionTime": 205
+  },
+  "createdAt": {
+    "$date": "2025-12-03T15:30:07.446Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T15:30:07.446Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6930577fada7091b9e6db278"
+  },
+  "email": "goguru@example.com",
+  "username": "GoGuru",
+  "password": "$2b$10$QW7mmx6Q5i3s/.Kb8Lmk2.0TZshGzpwKska/Lu4gL3uvrqdnyBG72",
+  "avatar": "",
+  "favoriteLanguages": [
+    "Python"
+  ],
+  "experience": 1575,
+  "rank": "Intermediate",
+  "badges": [
+    "🌱",
+    "⭐",
+    "🔥"
+  ],
+  "loginMethod": "local",
+  "role": "user",
+  "isBanned": false,
+  "rating": 1352,
+  "level": 2,
+  "pvpStats": {
+    "wins": 38,
+    "losses": 12,
+    "draws": 0,
+    "totalMatches": 50,
+    "winRate": 76,
+    "currentStreak": 4,
+    "bestStreak": 5,
+    "averageCompletionTime": 247
+  },
+  "createdAt": {
+    "$date": "2025-12-03T15:30:07.564Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T15:30:07.564Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6930577fada7091b9e6db27b"
+  },
+  "email": "swiftcoder@example.com",
+  "username": "SwiftCoder",
+  "password": "$2b$10$J2BgBHWjwfFHEOyVYBBTNe3C4VanrbqdjZPLz5YWO7XQCA5IYlp7C",
+  "avatar": "",
+  "favoriteLanguages": [
+    "Python",
+    "JavaScript",
+    "Java"
+  ],
+  "experience": 3064,
+  "rank": "Intermediate",
+  "badges": [
+    "🌱",
+    "⭐",
+    "🔥"
+  ],
+  "loginMethod": "local",
+  "role": "user",
+  "isBanned": false,
+  "rating": 1968,
+  "level": 4,
+  "pvpStats": {
+    "wins": 39,
+    "losses": 18,
+    "draws": 8,
+    "totalMatches": 65,
+    "winRate": 60,
+    "currentStreak": 0,
+    "bestStreak": 13,
+    "averageCompletionTime": 195
+  },
+  "createdAt": {
+    "$date": "2025-12-03T15:30:07.681Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T15:30:07.681Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6930577fada7091b9e6db27e"
+  },
+  "email": "kotlindev@example.com",
+  "username": "KotlinDev",
+  "password": "$2b$10$HO3lJPPSeH67iWa4bS9AHe0Hm6tc4bRA5gu1Ipn2wwR5VJGealRzq",
+  "avatar": "",
+  "favoriteLanguages": [
+    "Python",
+    "JavaScript"
+  ],
+  "experience": 7519,
+  "rank": "Senior",
+  "badges": [
+    "🌱",
+    "⭐",
+    "🔥",
+    "💎"
+  ],
+  "loginMethod": "local",
+  "role": "user",
+  "isBanned": false,
+  "rating": 1992,
+  "level": 8,
+  "pvpStats": {
+    "wins": 40,
+    "losses": 21,
+    "draws": 8,
+    "totalMatches": 69,
+    "winRate": 58,
+    "currentStreak": 3,
+    "bestStreak": 12,
+    "averageCompletionTime": 223
+  },
+  "createdAt": {
+    "$date": "2025-12-03T15:30:07.802Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T15:30:07.802Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6930577fada7091b9e6db281"
+  },
+  "email": "phpmaster@example.com",
+  "username": "PHPMaster",
+  "password": "$2b$10$dDrKMkTc1qjC31AB/k9jU.4A1bYAqDDqvE/iJwlDZrD6GbPunwJKe",
+  "avatar": "",
+  "favoriteLanguages": [
+    "Python"
+  ],
+  "experience": 5016,
+  "rank": "Senior",
+  "badges": [
+    "🌱",
+    "⭐",
+    "🔥",
+    "💎"
+  ],
+  "loginMethod": "local",
+  "role": "user",
+  "isBanned": false,
+  "rating": 1467,
+  "level": 6,
+  "pvpStats": {
+    "wins": 49,
+    "losses": 17,
+    "draws": 5,
+    "totalMatches": 71,
+    "winRate": 69,
+    "currentStreak": 3,
+    "bestStreak": 12,
+    "averageCompletionTime": 219
+  },
+  "createdAt": {
+    "$date": "2025-12-03T15:30:07.921Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T15:30:07.921Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69305780ada7091b9e6db284"
+  },
+  "email": "rubygems@example.com",
+  "username": "RubyGems",
+  "password": "$2b$10$VRLgyJMkuSHmh.sfZ0gtauUSqKVAQzCv9rG/cRyMPwYEdJLnRn0ve",
+  "avatar": "",
+  "favoriteLanguages": [
+    "Python"
+  ],
+  "experience": 4327,
+  "rank": "Senior",
+  "badges": [
+    "🌱",
+    "⭐",
+    "🔥",
+    "💎"
+  ],
+  "loginMethod": "local",
+  "role": "user",
+  "isBanned": false,
+  "rating": 1415,
+  "level": 5,
+  "pvpStats": {
+    "wins": 15,
+    "losses": 10,
+    "draws": 3,
+    "totalMatches": 28,
+    "winRate": 54,
+    "currentStreak": 1,
+    "bestStreak": 14,
+    "averageCompletionTime": 394
+  },
+  "createdAt": {
+    "$date": "2025-12-03T15:30:08.041Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T15:30:08.041Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69305780ada7091b9e6db287"
+  },
+  "email": "scalaexpert@example.com",
+  "username": "ScalaExpert",
+  "password": "$2b$10$adJVIvnbPR44MGLRn6tsKewqPpGdJgLps25mGg4iMO2Yl0d.xtdzO",
+  "avatar": "",
+  "favoriteLanguages": [
+    "Python",
+    "JavaScript",
+    "Java"
+  ],
+  "experience": 6372,
+  "rank": "Senior",
+  "badges": [
+    "🌱",
+    "⭐",
+    "🔥",
+    "💎"
+  ],
+  "loginMethod": "local",
+  "role": "user",
+  "isBanned": false,
+  "rating": 1933,
+  "level": 7,
+  "pvpStats": {
+    "wins": 11,
+    "losses": 2,
+    "draws": 1,
+    "totalMatches": 14,
+    "winRate": 79,
+    "currentStreak": 1,
+    "bestStreak": 7,
+    "averageCompletionTime": 438
+  },
+  "createdAt": {
+    "$date": "2025-12-03T15:30:08.161Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T15:30:08.161Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69305780ada7091b9e6db28a"
+  },
+  "email": "elixirpro@example.com",
+  "username": "ElixirPro",
+  "password": "$2b$10$zxg/3f1eRWrhAUVtlaKR3eQVVAxeQ1Wsgns9O.ep8a5p4HyT1jb/6",
+  "avatar": "",
+  "favoriteLanguages": [
+    "Python",
+    "JavaScript",
+    "Java"
+  ],
+  "experience": 4287,
+  "rank": "Senior",
+  "badges": [
+    "🌱",
+    "⭐",
+    "🔥",
+    "💎"
+  ],
+  "loginMethod": "local",
+  "role": "user",
+  "isBanned": false,
+  "rating": 1955,
+  "level": 5,
+  "pvpStats": {
+    "wins": 41,
+    "losses": 17,
+    "draws": 2,
+    "totalMatches": 60,
+    "winRate": 68,
+    "currentStreak": 4,
+    "bestStreak": 11,
+    "averageCompletionTime": 230
+  },
+  "createdAt": {
+    "$date": "2025-12-03T15:30:08.286Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T15:30:08.286Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69305780ada7091b9e6db28d"
+  },
+  "email": "haskellhero@example.com",
+  "username": "HaskellHero",
+  "password": "$2b$10$UIqT2wSi8Pui4qoeKo4HjeB1W86Rf9IGK5yV7GXBZQNfkEMuvTFvq",
+  "avatar": "",
+  "favoriteLanguages": [
+    "Python"
+  ],
+  "experience": 15549,
+  "rank": "Expert",
+  "badges": [
+    "🌱",
+    "⭐",
+    "🔥",
+    "💎",
+    "👑"
+  ],
+  "loginMethod": "local",
+  "role": "user",
+  "isBanned": false,
+  "rating": 1632,
+  "level": 16,
+  "pvpStats": {
+    "wins": 12,
+    "losses": 15,
+    "draws": 5,
+    "totalMatches": 32,
+    "winRate": 38,
+    "currentStreak": 3,
+    "bestStreak": 11,
+    "averageCompletionTime": 346
+  },
+  "createdAt": {
+    "$date": "2025-12-03T15:30:08.405Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T15:30:08.405Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69305780ada7091b9e6db290"
+  },
+  "email": "clojureninja@example.com",
+  "username": "ClojureNinja",
+  "password": "$2b$10$iCC1EHs/4Riw.D.Jxzudy.N0fxIJWKlLb8HOT71nMkG1SPaRWZ2Kq",
+  "avatar": "",
+  "favoriteLanguages": [
+    "Python"
+  ],
+  "experience": 14595,
+  "rank": "Expert",
+  "badges": [
+    "🌱",
+    "⭐",
+    "🔥",
+    "💎",
+    "👑"
+  ],
+  "loginMethod": "local",
+  "role": "user",
+  "isBanned": false,
+  "rating": 1626,
+  "level": 15,
+  "pvpStats": {
+    "wins": 16,
+    "losses": 23,
+    "draws": 6,
+    "totalMatches": 45,
+    "winRate": 36,
+    "currentStreak": 1,
+    "bestStreak": 11,
+    "averageCompletionTime": 309
+  },
+  "createdAt": {
+    "$date": "2025-12-03T15:30:08.524Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T15:30:08.524Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69305780ada7091b9e6db293"
+  },
+  "email": "erlangdev@example.com",
+  "username": "ErlangDev",
+  "password": "$2b$10$FcPUPR/Ra4FvmkrQJQIAn.km4hE6Bb0rk7Ia.6uPmnttZebk0TBii",
+  "avatar": "",
+  "favoriteLanguages": [
+    "Python"
+  ],
+  "experience": 11616,
+  "rank": "Expert",
+  "badges": [
+    "🌱",
+    "⭐",
+    "🔥",
+    "💎",
+    "👑"
+  ],
+  "loginMethod": "local",
+  "role": "user",
+  "isBanned": false,
+  "rating": 1290,
+  "level": 12,
+  "pvpStats": {
+    "wins": 9,
+    "losses": 7,
+    "draws": 2,
+    "totalMatches": 18,
+    "winRate": 50,
+    "currentStreak": 0,
+    "bestStreak": 7,
+    "averageCompletionTime": 276
+  },
+  "createdAt": {
+    "$date": "2025-12-03T15:30:08.644Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T15:30:08.644Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69305780ada7091b9e6db296"
+  },
+  "email": "fsharpfan@example.com",
+  "username": "FsharpFan",
+  "password": "$2b$10$8s8wQjpMquuoMg7dn2D1k.0LKUamiudcMu7ReHY5.t3mUqbb2irAm",
+  "avatar": "",
+  "favoriteLanguages": [
+    "Python"
+  ],
+  "experience": 18457,
+  "rank": "Expert",
+  "badges": [
+    "🌱",
+    "⭐",
+    "🔥",
+    "💎",
+    "👑"
+  ],
+  "loginMethod": "local",
+  "role": "user",
+  "isBanned": false,
+  "rating": 1412,
+  "level": 19,
+  "pvpStats": {
+    "wins": 32,
+    "losses": 26,
+    "draws": 2,
+    "totalMatches": 60,
+    "winRate": 53,
+    "currentStreak": 1,
+    "bestStreak": 12,
+    "averageCompletionTime": 239
+  },
+  "createdAt": {
+    "$date": "2025-12-03T15:30:08.762Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T15:30:08.762Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69305780ada7091b9e6db299"
+  },
+  "email": "ocamlpro@example.com",
+  "username": "OCamlPro",
+  "password": "$2b$10$iHDblZhKcwHn6dzGhoxmLe5q2.tn90oVv8QMnK5VEliS6xV2dlvci",
+  "avatar": "",
+  "favoriteLanguages": [
+    "Python"
+  ],
+  "experience": 15804,
+  "rank": "Expert",
+  "badges": [
+    "🌱",
+    "⭐",
+    "🔥",
+    "💎",
+    "👑"
+  ],
+  "loginMethod": "local",
+  "role": "user",
+  "isBanned": false,
+  "rating": 1328,
+  "level": 16,
+  "pvpStats": {
+    "wins": 44,
+    "losses": 9,
+    "draws": 2,
+    "totalMatches": 55,
+    "winRate": 80,
+    "currentStreak": 2,
+    "bestStreak": 11,
+    "averageCompletionTime": 317
+  },
+  "createdAt": {
+    "$date": "2025-12-03T15:30:08.883Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T15:30:08.883Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6931b5b165e67dd894235296"
+  },
+  "email": "thanhnguyen848878@gmail.com",
+  "username": "google_103962034508979307296",
+  "password": "$2b$10$C8GWpKy9Pkmghdm5b1vuAuAoWH1ArDh/L10gz6xHez6wIHL5SzhJa",
+  "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJy5Q80XRXkHdxYyzyVWvxU903P9LSYbvztyCfWnb2hdgePiMco=s96-c",
+  "favoriteLanguages": [],
+  "experience": 0,
+  "rank": "Newbie",
+  "badges": [],
+  "tokens": 0,
+  "loginMethod": "google",
+  "role": "user",
+  "isBanned": false,
+  "oauth": {
+    "google": "103962034508979307296"
+  },
+  "rating": 1200,
+  "level": 1,
+  "pvpStats": {
+    "wins": 0,
+    "losses": 0,
+    "draws": 0,
+    "totalMatches": 0,
+    "winRate": 0,
+    "currentStreak": 0,
+    "bestStreak": 0,
+    "averageCompletionTime": 0
+  },
+  "unlockedSolutions": [],
+  "completedChallenges": [],
+  "createdAt": {
+    "$date": "2025-12-04T16:24:17.995Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T16:24:17.995Z"
+  },
+  "__v": 0
+}]

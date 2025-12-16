@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "693271171a5e314358aadb66"
+  },
+  "user": {
+    "$oid": "690576be9d98232c82cf9dd1"
+  },
+  "challenge": {
+    "$oid": "692dad9e1808ca03bb4cca34"
+  },
+  "content": "xin chào",
+  "isHidden": false,
+  "reports": [
+    {
+      "user": {
+        "$oid": "68e9aef690945482f3158ac2"
+      },
+      "reason": "thằng này spam",
+      "reportedAt": {
+        "$date": "2025-12-05T06:07:27.728Z"
+      },
+      "_id": {
+        "$oid": "6932769fe420e296bb76cece"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-12-05T05:43:51.313Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-05T07:54:14.574Z"
+  },
+  "__v": 2,
+  "dislikes": [],
+  "likes": []
+}]

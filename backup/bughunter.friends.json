@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "692dbce1d4bf5db059e3fd3e"
+  },
+  "requesterId": {
+    "$oid": "692d497c0c1a1b0f210277a8"
+  },
+  "recipientId": {
+    "$oid": "690576be9d98232c82cf9dd1"
+  },
+  "requesterUsername": "thanh1",
+  "recipientUsername": "ThanhToxic",
+  "status": "accepted",
+  "friendshipLevel": 1,
+  "totalMatches": 0,
+  "messagesExchanged": 0,
+  "canSeeOnlineStatus": true,
+  "canInviteToMatches": true,
+  "canViewStats": true,
+  "requestedAt": {
+    "$date": "2025-12-01T16:05:53.502Z"
+  },
+  "lastInteraction": {
+    "$date": "2025-12-01T16:05:58.467Z"
+  },
+  "createdAt": {
+    "$date": "2025-12-01T16:05:53.520Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-01T16:05:58.468Z"
+  },
+  "__v": 0,
+  "respondedAt": {
+    "$date": "2025-12-01T16:05:58.466Z"
+  }
+}]

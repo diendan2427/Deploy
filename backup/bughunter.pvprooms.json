@@ -1,0 +1,784 @@
+[{
+  "_id": {
+    "$oid": "692da4d590c69016b900cb0c"
+  },
+  "name": "test4",
+  "hostId": {
+    "$oid": "692d497c0c1a1b0f210277a8"
+  },
+  "hostUsername": "thanh1",
+  "roomCode": "ODQ6WB",
+  "settings": {
+    "timeLimit": 10,
+    "difficulty": "Easy",
+    "maxParticipants": 2,
+    "_id": {
+      "$oid": "692da4d590c69016b900cb0d"
+    }
+  },
+  "participants": [
+    {
+      "userId": {
+        "$oid": "692d497c0c1a1b0f210277a8"
+      },
+      "username": "thanh1",
+      "joinedAt": {
+        "$date": "2025-12-01T14:23:17.352Z"
+      },
+      "isReady": true,
+      "_id": {
+        "$oid": "692da4d590c69016b900cb0e"
+      }
+    },
+    {
+      "userId": {
+        "$oid": "690576be9d98232c82cf9dd1"
+      },
+      "username": "ThanhToxic",
+      "joinedAt": {
+        "$date": "2025-12-01T14:23:24.696Z"
+      },
+      "isReady": true,
+      "_id": {
+        "$oid": "692da4dc90c69016b900cb1e"
+      }
+    }
+  ],
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-12-01T14:23:17.404Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-01T14:38:26.585Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "692dafdccec1e96d80e5836f"
+  },
+  "name": "test2",
+  "hostId": {
+    "$oid": "692d497c0c1a1b0f210277a8"
+  },
+  "hostUsername": "thanh1",
+  "roomCode": "0J8GMI",
+  "settings": {
+    "timeLimit": 10,
+    "difficulty": "Easy",
+    "maxParticipants": 2,
+    "_id": {
+      "$oid": "692dafdccec1e96d80e58370"
+    }
+  },
+  "participants": [
+    {
+      "userId": {
+        "$oid": "692d497c0c1a1b0f210277a8"
+      },
+      "username": "thanh1",
+      "joinedAt": {
+        "$date": "2025-12-01T15:10:20.367Z"
+      },
+      "isReady": true,
+      "_id": {
+        "$oid": "692dafdccec1e96d80e58371"
+      }
+    },
+    {
+      "userId": {
+        "$oid": "690576be9d98232c82cf9dd1"
+      },
+      "username": "ThanhToxic",
+      "joinedAt": {
+        "$date": "2025-12-01T15:10:25.325Z"
+      },
+      "isReady": true,
+      "_id": {
+        "$oid": "692dafe1cec1e96d80e58382"
+      }
+    }
+  ],
+  "status": "in-progress",
+  "createdAt": {
+    "$date": "2025-12-01T15:10:20.414Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-01T15:10:28.921Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "692db4b2cec1e96d80e586db"
+  },
+  "name": "test1",
+  "hostId": {
+    "$oid": "692d497c0c1a1b0f210277a8"
+  },
+  "hostUsername": "thanh1",
+  "roomCode": "MU5RZ0",
+  "settings": {
+    "timeLimit": 10,
+    "difficulty": "Easy",
+    "maxParticipants": 2,
+    "_id": {
+      "$oid": "692db4b2cec1e96d80e586dc"
+    }
+  },
+  "participants": [
+    {
+      "userId": {
+        "$oid": "692d497c0c1a1b0f210277a8"
+      },
+      "username": "thanh1",
+      "joinedAt": {
+        "$date": "2025-12-01T15:30:58.624Z"
+      },
+      "isReady": true,
+      "_id": {
+        "$oid": "692db4b2cec1e96d80e586dd"
+      }
+    },
+    {
+      "userId": {
+        "$oid": "690576be9d98232c82cf9dd1"
+      },
+      "username": "ThanhToxic",
+      "joinedAt": {
+        "$date": "2025-12-01T15:33:25.139Z"
+      },
+      "isReady": true,
+      "_id": {
+        "$oid": "692db545cec1e96d80e586ec"
+      }
+    }
+  ],
+  "status": "in-progress",
+  "createdAt": {
+    "$date": "2025-12-01T15:30:58.643Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-01T15:33:35.966Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "692db5d2586cb3c517a1ad33"
+  },
+  "name": "test7",
+  "hostId": {
+    "$oid": "692d497c0c1a1b0f210277a8"
+  },
+  "hostUsername": "thanh1",
+  "roomCode": "Y9E70K",
+  "settings": {
+    "timeLimit": 10,
+    "difficulty": "Easy",
+    "maxParticipants": 2,
+    "_id": {
+      "$oid": "692db5d2586cb3c517a1ad34"
+    }
+  },
+  "participants": [
+    {
+      "userId": {
+        "$oid": "692d497c0c1a1b0f210277a8"
+      },
+      "username": "thanh1",
+      "joinedAt": {
+        "$date": "2025-12-01T15:35:46.466Z"
+      },
+      "isReady": true,
+      "_id": {
+        "$oid": "692db5d2586cb3c517a1ad35"
+      }
+    },
+    {
+      "userId": {
+        "$oid": "690576be9d98232c82cf9dd1"
+      },
+      "username": "ThanhToxic",
+      "joinedAt": {
+        "$date": "2025-12-01T15:35:53.511Z"
+      },
+      "isReady": false,
+      "_id": {
+        "$oid": "692db5d9586cb3c517a1ad3a"
+      }
+    }
+  ],
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-12-01T15:35:46.484Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-01T15:36:50.052Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "692db88bffdd62439cc11b74"
+  },
+  "name": "test6",
+  "hostId": {
+    "$oid": "692d497c0c1a1b0f210277a8"
+  },
+  "hostUsername": "thanh1",
+  "roomCode": "CD3JDJ",
+  "settings": {
+    "timeLimit": 10,
+    "difficulty": "Easy",
+    "maxParticipants": 2,
+    "_id": {
+      "$oid": "692db88bffdd62439cc11b75"
+    }
+  },
+  "participants": [
+    {
+      "userId": {
+        "$oid": "692d497c0c1a1b0f210277a8"
+      },
+      "username": "thanh1",
+      "joinedAt": {
+        "$date": "2025-12-01T15:47:23.576Z"
+      },
+      "isReady": true,
+      "_id": {
+        "$oid": "692db88bffdd62439cc11b76"
+      }
+    },
+    {
+      "userId": {
+        "$oid": "690576be9d98232c82cf9dd1"
+      },
+      "username": "ThanhToxic",
+      "joinedAt": {
+        "$date": "2025-12-01T15:47:35.874Z"
+      },
+      "isReady": true,
+      "_id": {
+        "$oid": "692db897ffdd62439cc11b85"
+      }
+    }
+  ],
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-12-01T15:47:23.610Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-01T15:48:26.563Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "692db8f6ffdd62439cc11ccb"
+  },
+  "name": "test8",
+  "hostId": {
+    "$oid": "692d497c0c1a1b0f210277a8"
+  },
+  "hostUsername": "thanh1",
+  "roomCode": "JETIAI",
+  "settings": {
+    "timeLimit": 10,
+    "difficulty": "Easy",
+    "maxParticipants": 2,
+    "_id": {
+      "$oid": "692db8f6ffdd62439cc11ccc"
+    }
+  },
+  "participants": [
+    {
+      "userId": {
+        "$oid": "692d497c0c1a1b0f210277a8"
+      },
+      "username": "thanh1",
+      "joinedAt": {
+        "$date": "2025-12-01T15:49:10.468Z"
+      },
+      "isReady": true,
+      "_id": {
+        "$oid": "692db8f6ffdd62439cc11ccd"
+      }
+    },
+    {
+      "userId": {
+        "$oid": "690576be9d98232c82cf9dd1"
+      },
+      "username": "ThanhToxic",
+      "joinedAt": {
+        "$date": "2025-12-01T15:49:13.036Z"
+      },
+      "isReady": true,
+      "_id": {
+        "$oid": "692db8f9ffdd62439cc11cdd"
+      }
+    }
+  ],
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-12-01T15:49:10.470Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-01T15:49:22.425Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "692dbd5ad4bf5db059e3fe80"
+  },
+  "name": "thanh",
+  "hostId": {
+    "$oid": "692d497c0c1a1b0f210277a8"
+  },
+  "hostUsername": "thanh1",
+  "roomCode": "0Y4EGM",
+  "settings": {
+    "timeLimit": 10,
+    "difficulty": "Easy",
+    "maxParticipants": 2,
+    "_id": {
+      "$oid": "692dbd5ad4bf5db059e3fe81"
+    }
+  },
+  "participants": [
+    {
+      "userId": {
+        "$oid": "692d497c0c1a1b0f210277a8"
+      },
+      "username": "thanh1",
+      "joinedAt": {
+        "$date": "2025-12-01T16:07:54.434Z"
+      },
+      "isReady": true,
+      "_id": {
+        "$oid": "692dbd5ad4bf5db059e3fe82"
+      }
+    },
+    {
+      "userId": {
+        "$oid": "690576be9d98232c82cf9dd1"
+      },
+      "username": "ThanhToxic",
+      "joinedAt": {
+        "$date": "2025-12-01T16:08:02.291Z"
+      },
+      "isReady": true,
+      "_id": {
+        "$oid": "692dbd62d4bf5db059e3fe9b"
+      }
+    }
+  ],
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-12-01T16:07:54.445Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-01T16:08:56.712Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "69306a68f808cc0225a023cd"
+  },
+  "name": "12312511",
+  "hostId": {
+    "$oid": "692d497c0c1a1b0f210277a8"
+  },
+  "hostUsername": "thanh1",
+  "roomCode": "3H6G27",
+  "settings": {
+    "timeLimit": 10,
+    "difficulty": "Easy",
+    "maxParticipants": 2,
+    "isPrivate": true,
+    "language": "python",
+    "_id": {
+      "$oid": "69306a68f808cc0225a023ce"
+    }
+  },
+  "participants": [
+    {
+      "userId": {
+        "$oid": "692d497c0c1a1b0f210277a8"
+      },
+      "username": "thanh1",
+      "joinedAt": {
+        "$date": "2025-12-03T16:50:48.798Z"
+      },
+      "isReady": true,
+      "_id": {
+        "$oid": "69306a68f808cc0225a023cf"
+      }
+    },
+    {
+      "userId": {
+        "$oid": "690576be9d98232c82cf9dd1"
+      },
+      "username": "ThanhToxic",
+      "joinedAt": {
+        "$date": "2025-12-03T16:51:04.970Z"
+      },
+      "isReady": true,
+      "_id": {
+        "$oid": "69306a78f808cc0225a023e4"
+      }
+    }
+  ],
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-12-03T16:50:48.812Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T16:52:11.965Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "69306c71f808cc0225a02744"
+  },
+  "name": "31242131242313531242131242313543523124231313124231",
+  "hostId": {
+    "$oid": "690576be9d98232c82cf9dd1"
+  },
+  "hostUsername": "ThanhToxic",
+  "roomCode": "TAOCUA",
+  "settings": {
+    "timeLimit": 10,
+    "difficulty": "Easy",
+    "maxParticipants": 2,
+    "isPrivate": false,
+    "language": "python",
+    "_id": {
+      "$oid": "69306c71f808cc0225a02745"
+    }
+  },
+  "participants": [
+    {
+      "userId": {
+        "$oid": "690576be9d98232c82cf9dd1"
+      },
+      "username": "ThanhToxic",
+      "joinedAt": {
+        "$date": "2025-12-03T16:59:29.222Z"
+      },
+      "isReady": true,
+      "_id": {
+        "$oid": "69306c71f808cc0225a02746"
+      }
+    },
+    {
+      "userId": {
+        "$oid": "692d497c0c1a1b0f210277a8"
+      },
+      "username": "thanh1",
+      "joinedAt": {
+        "$date": "2025-12-03T16:59:33.224Z"
+      },
+      "isReady": true,
+      "_id": {
+        "$oid": "69306c75f808cc0225a02761"
+      }
+    }
+  ],
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-12-03T16:59:29.224Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T16:59:56.632Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "6931b44a35362e95b83124df"
+  },
+  "name": "42242",
+  "hostId": {
+    "$oid": "68e9aef690945482f3158ac2"
+  },
+  "hostUsername": "admin",
+  "roomCode": "YKL31G",
+  "settings": {
+    "timeLimit": 10,
+    "difficulty": "Easy",
+    "maxParticipants": 2,
+    "isPrivate": true,
+    "language": "python",
+    "_id": {
+      "$oid": "6931b44a35362e95b83124e0"
+    }
+  },
+  "participants": [
+    {
+      "userId": {
+        "$oid": "68e9aef690945482f3158ac2"
+      },
+      "username": "admin",
+      "joinedAt": {
+        "$date": "2025-12-04T16:18:18.382Z"
+      },
+      "isReady": true,
+      "_id": {
+        "$oid": "6931b44a35362e95b83124e1"
+      }
+    },
+    {
+      "userId": {
+        "$oid": "690576be9d98232c82cf9dd1"
+      },
+      "username": "ThanhToxic",
+      "joinedAt": {
+        "$date": "2025-12-04T16:18:34.115Z"
+      },
+      "isReady": true,
+      "_id": {
+        "$oid": "6931b45a35362e95b8312521"
+      }
+    }
+  ],
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-12-04T16:18:18.392Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T16:18:55.594Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "693288c6a45da6570ae67656"
+  },
+  "name": "test1",
+  "hostId": {
+    "$oid": "692d497c0c1a1b0f210277a8"
+  },
+  "hostUsername": "thanh1",
+  "roomCode": "WFA8XY",
+  "settings": {
+    "timeLimit": 10,
+    "difficulty": "Easy",
+    "maxParticipants": 2,
+    "isPrivate": true,
+    "language": "python",
+    "_id": {
+      "$oid": "693288c6a45da6570ae67657"
+    }
+  },
+  "participants": [
+    {
+      "userId": {
+        "$oid": "692d497c0c1a1b0f210277a8"
+      },
+      "username": "thanh1",
+      "joinedAt": {
+        "$date": "2025-12-05T07:24:54.252Z"
+      },
+      "isReady": true,
+      "_id": {
+        "$oid": "693288c6a45da6570ae67658"
+      }
+    },
+    {
+      "userId": {
+        "$oid": "690576be9d98232c82cf9dd1"
+      },
+      "username": "ThanhToxic",
+      "joinedAt": {
+        "$date": "2025-12-05T07:25:12.416Z"
+      },
+      "isReady": true,
+      "_id": {
+        "$oid": "693288d8a45da6570ae678c6"
+      }
+    }
+  ],
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-12-05T07:24:54.257Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-05T07:29:53.355Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "69328b12580aa83c1ba7d54e"
+  },
+  "name": "test4",
+  "hostId": {
+    "$oid": "692d497c0c1a1b0f210277a8"
+  },
+  "hostUsername": "thanh1",
+  "roomCode": "RPZ4SC",
+  "settings": {
+    "timeLimit": 10,
+    "difficulty": "Easy",
+    "maxParticipants": 2,
+    "isPrivate": true,
+    "language": "java",
+    "_id": {
+      "$oid": "69328b12580aa83c1ba7d54f"
+    }
+  },
+  "participants": [
+    {
+      "userId": {
+        "$oid": "692d497c0c1a1b0f210277a8"
+      },
+      "username": "thanh1",
+      "joinedAt": {
+        "$date": "2025-12-05T07:34:42.400Z"
+      },
+      "isReady": true,
+      "_id": {
+        "$oid": "69328b12580aa83c1ba7d550"
+      }
+    },
+    {
+      "userId": {
+        "$oid": "690576be9d98232c82cf9dd1"
+      },
+      "username": "ThanhToxic",
+      "joinedAt": {
+        "$date": "2025-12-05T07:34:48.956Z"
+      },
+      "isReady": true,
+      "_id": {
+        "$oid": "69328b18580aa83c1ba7d574"
+      }
+    }
+  ],
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-12-05T07:34:42.416Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-05T07:36:52.905Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "69328f0e580aa83c1ba7dc8e"
+  },
+  "name": "test5",
+  "hostId": {
+    "$oid": "692d497c0c1a1b0f210277a8"
+  },
+  "hostUsername": "thanh1",
+  "roomCode": "P0HV2V",
+  "settings": {
+    "timeLimit": 10,
+    "difficulty": "Easy",
+    "maxParticipants": 2,
+    "isPrivate": false,
+    "language": "python",
+    "_id": {
+      "$oid": "69328f0e580aa83c1ba7dc8f"
+    }
+  },
+  "participants": [
+    {
+      "userId": {
+        "$oid": "692d497c0c1a1b0f210277a8"
+      },
+      "username": "thanh1",
+      "joinedAt": {
+        "$date": "2025-12-05T07:51:42.387Z"
+      },
+      "isReady": true,
+      "_id": {
+        "$oid": "69328f0e580aa83c1ba7dc90"
+      }
+    },
+    {
+      "userId": {
+        "$oid": "690576be9d98232c82cf9dd1"
+      },
+      "username": "ThanhToxic",
+      "joinedAt": {
+        "$date": "2025-12-05T07:52:05.868Z"
+      },
+      "isReady": true,
+      "_id": {
+        "$oid": "69328f25580aa83c1ba7df02"
+      }
+    }
+  ],
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-12-05T07:51:42.390Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-05T07:52:59.349Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "69350bee5bd109c3724cbd51"
+  },
+  "name": "test1",
+  "hostId": {
+    "$oid": "690576be9d98232c82cf9dd1"
+  },
+  "hostUsername": "ThanhToxic",
+  "roomCode": "93Z9XY",
+  "settings": {
+    "timeLimit": 15,
+    "difficulty": "Medium",
+    "maxParticipants": 2,
+    "isPrivate": true,
+    "language": "python",
+    "_id": {
+      "$oid": "69350bee5bd109c3724cbd52"
+    }
+  },
+  "participants": [
+    {
+      "userId": {
+        "$oid": "690576be9d98232c82cf9dd1"
+      },
+      "username": "ThanhToxic",
+      "joinedAt": {
+        "$date": "2025-12-07T05:09:02.479Z"
+      },
+      "isReady": true,
+      "_id": {
+        "$oid": "69350bee5bd109c3724cbd53"
+      }
+    },
+    {
+      "userId": {
+        "$oid": "692d497c0c1a1b0f210277a8"
+      },
+      "username": "thanh1",
+      "joinedAt": {
+        "$date": "2025-12-07T05:09:43.579Z"
+      },
+      "isReady": true,
+      "_id": {
+        "$oid": "69350c175bd109c3724cbd93"
+      }
+    }
+  ],
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-12-07T05:09:02.504Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-07T05:11:57.014Z"
+  },
+  "__v": 1
+}]
