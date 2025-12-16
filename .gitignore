@@ -103,3 +103,6 @@ temp/
 *.njsproj
 *.sln
 *.sw?
+
+# Deployment environment variables reference (PRIVATE)
+deployment-env-reference.txt

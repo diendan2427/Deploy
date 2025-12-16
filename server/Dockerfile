@@ -1,4 +1,5 @@
 # Dockerfile for BugHunter Backend (Railway)
+# Build from root context, files are in server/ directory
 
 # Use Node.js 18 LTS
 FROM node:18-alpine
@@ -6,15 +7,15 @@ FROM node:18-alpine
 # Set working directory
 WORKDIR /app
 
-# Copy package files
-COPY package*.json ./
+# Copy package files from server directory
+COPY server/package*.json ./
 
 # Install dependencies (production only)
 RUN npm ci --only=production
 
-# Copy TypeScript source and config
-COPY tsconfig.json ./
-COPY src ./src
+# Copy TypeScript source and config from server directory
+COPY server/tsconfig.json ./
+COPY server/src ./src
 
 # Install dev dependencies for build
 RUN npm install --save-dev typescript @types/node
