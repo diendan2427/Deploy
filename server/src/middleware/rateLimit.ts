@@ -123,7 +123,7 @@ export const strictRateLimit = createLimiter({
 // Auth rate limiter (per IP) - for login/register
 export const authRateLimit = createLimiter({
   windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 10, // 10 login attempts per 15 minutes per IP
+  max: 1000, // 1000 login attempts per 15 minutes per IP (increased for development)
   keyGenerator: (req) => `auth:ip:${req.ip}`,
   message: 'Quá nhiều lần thử đăng nhập. Vui lòng thử lại sau 15 phút.',
 });
@@ -131,7 +131,7 @@ export const authRateLimit = createLimiter({
 // Auth rate limiter (per user) - for login/register
 export const authRateLimitUser = createLimiter({
   windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 5, // 5 login attempts per 15 minutes per user
+  max: 1000, // 1000 login attempts per 15 minutes per user (increased for development)
   keyGenerator: (req) => {
     const email = req.body?.email || req.body?.username;
     return email ? `auth:user:${email.toLowerCase()}` : null;
