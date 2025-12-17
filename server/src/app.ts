@@ -73,6 +73,7 @@ app.use(cors({
   origin: process.env.NODE_ENV === 'production'
     ? [
         process.env.CLIENT_URL || "http://localhost:3000",
+        "https://hunterbug.vercel.app",
         "https://deploy-production-a16c.up.railway.app",
         "http://localhost:5173",
         "http://localhost:3000",
