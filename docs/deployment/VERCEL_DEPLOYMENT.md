@@ -82,19 +82,26 @@ VITE_GOOGLE_CLIENT_ID=your-google-client-id
 
 ### Bước 2.3: Thêm Environment Variables
 
-Click **"Environment Variables"**, thêm:
+Click **"Environment Variables"**, bạn sẽ thấy 2 cột: **Key** và **Value**.
 
-```env
-# Backend API URL
-VITE_API_URL=https://your-backend.up.railway.app
+Nhập từng dòng như sau:
 
-# Node environment
-NODE_ENV=production
-```
+| Key | Value |
+|-----|-------|
+| `VITE_API_URL` | `https://deploy-production-a16c.up.railway.app` |
+| `NODE_ENV` | `production` |
+
+**Cách nhập:**
+1. Click vào ô **"Key"** → nhập tên biến (VD: `VITE_API_URL`)
+2. Click vào ô **"Value"** → nhập giá trị (VD: `https://deploy-production-a16c.up.railway.app`)
+3. Click **"Add"** hoặc nhấn Enter
+4. Lặp lại cho các biến khác
 
 ⚠️ **LƯU Ý:** 
-- Vite environment variables phải bắt đầu với `VITE_`
-- Thay `your-backend.up.railway.app` bằng Railway URL thật
+- Vite environment variables **phải bắt đầu với `VITE_`**
+- Không thêm dấu ngoặc kép `""` cho value
+- Không có dấu `=` giữa key và value (Vercel tự xử lý)
+- Thay `deploy-production-a16c.up.railway.app` bằng Railway URL thật của bạn
 
 ### Bước 2.4: Deploy
 
