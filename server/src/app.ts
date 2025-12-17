@@ -68,10 +68,12 @@ const wsService = new WebSocketService(server);
 // Middleware
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
-// Enable CORS for development - Allow all origins for OAuth to work
+// Enable CORS - Allow configured origins
 app.use(cors({
   origin: process.env.NODE_ENV === 'production'
     ? [
+        process.env.CLIENT_URL || "http://localhost:3000",
+        "https://deploy-production-a16c.up.railway.app",
         "http://localhost:5173",
         "http://localhost:3000",
         "http://127.0.0.1:5173",
