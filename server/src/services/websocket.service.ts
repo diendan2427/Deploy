@@ -110,18 +110,24 @@ export class WebSocketService {
     
     this.io = new SocketIOServer(server, {
       cors: {
-        origin: [
-          "http://localhost:5173",
-          "http://localhost:3000",
-          "http://127.0.0.1:5173",
-          "http://127.0.0.1:3000"
-        ],
+        origin: process.env.NODE_ENV === 'production'
+          ? [
+              process.env.CLIENT_URL || "http://localhost:3000",
+              "https://hunterbug.vercel.app",
+              "https://deploy-production-a16c.up.railway.app",
+              "http://localhost:5173",
+              "http://localhost:3000",
+              "http://127.0.0.1:5173",
+              "http://127.0.0.1:3000"
+            ]
+          : true, // Allow all origins in development
         methods: ["GET", "POST"],
         credentials: true
       },
       transports: ['websocket', 'polling'],
       pingTimeout: 60000,
-      pingInterval: 25000
+      pingInterval: 25000,
+      allowEIO3: true // Support older clients
     });
 
     this.setupMiddleware();

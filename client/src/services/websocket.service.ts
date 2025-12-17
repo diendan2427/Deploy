@@ -9,9 +9,15 @@ class WebSocketService {
   private reconnectInterval = 5000;
 
   constructor(url?: string) {
-    // Explicitly set the URL to point to the server at port 5000
-    this.url = url || `${window.location.protocol === 'https:' ? 'https:' : 'http:'}//${window.location.hostname}:5000`;
+    // Use VITE_API_URL from environment or fallback to window location
+    const apiUrl = import.meta.env.VITE_API_URL || 
+                   `${window.location.protocol}//${window.location.hostname}:5000`;
+    
+    // Remove /api suffix if present, Socket.IO connects to root
+    this.url = url || apiUrl.replace(/\/api$/, '');
+    
     console.log('WebSocket URL:', this.url);
+    console.log('Environment API URL:', import.meta.env.VITE_API_URL);
   }
 
   connect(token?: string) {
